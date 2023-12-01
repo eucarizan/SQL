@@ -14,6 +14,7 @@
 chapter|solution|num
 :-:|:-:|:-:
 01|[check postgress version](./practical-sql-anthony-debarros/ch01/listing01-01.sql)|1
+02|[create a database](./practical-sql-anthony-debarros/ch02/listing_02-01.sql)|2
 <hr/>
 
 ### 2: SoftUni
