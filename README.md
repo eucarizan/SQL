@@ -19,6 +19,8 @@ chapter|solution|num
 02|[insert data - teachers](./practical-sql-anthony-debarros/ch02/listing_02-03.sql)|4
 03|[querying all rows and columns - teachers](./practical-sql-anthony-debarros/ch03/listing_03-01.sql)|5
 03|[querying a subset of columns](./practical-sql-anthony-debarros/ch03/listing_03-02.sql)|6
+03|[sorting a column with order by](./practical-sql-anthony-debarros/ch03/listing_03-03.sql)|7
+03|[sorting multiple columns with order by](./practical-sql-anthony-debarros/ch03/listing_03-04.sql)|8
 <hr/>
 
 ### 2: SoftUni
