@@ -26,6 +26,7 @@ chapter|solution|num
 03|[filtering rows using where](./practical-sql-anthony-debarros/ch03/listing_03-07.sql)|11
 03|[filtering with like and ilike](./practical-sql-anthony-debarros/ch03/listing_03-08.sql)|12
 03|[combining operators using and & or](./practical-sql-anthony-debarros/ch03/listing_03-09)|13
+03|[a select statement including where and order by](./practical-sql-anthony-debarros/ch03/listing_03-10)|14
 <hr/>
 
 ### 2: SoftUni
