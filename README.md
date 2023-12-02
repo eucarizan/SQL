@@ -25,8 +25,14 @@ chapter|solution|num
 03|[querying distinct pairs of values](./practical-sql-anthony-debarros/ch03/listing_03-06.sql)|10
 03|[filtering rows using where](./practical-sql-anthony-debarros/ch03/listing_03-07.sql)|11
 03|[filtering with like and ilike](./practical-sql-anthony-debarros/ch03/listing_03-08.sql)|12
-03|[combining operators using and & or](./practical-sql-anthony-debarros/ch03/listing_03-09)|13
-03|[a select statement including where and order by](./practical-sql-anthony-debarros/ch03/listing_03-10)|14
+03|[combining operators using and & or](./practical-sql-anthony-debarros/ch03/listing_03-09.sql)|13
+03|[a select statement including where and order by](./practical-sql-anthony-debarros/ch03/listing_03-10.sql)|14
+04|[character data types in aciton](./practical-sql-anthony-debarros/ch04/listing_04-01.sql)|15
+04|[number data types in action](./practical-sql-anthony-debarros/ch04/listing_04-02.sql)|16
+04|[rounding issues with float columns](./practical-sql-anthony-debarros/ch04/listing_04-03.sql)|17
+04|[the timestamp and interval types in action](./practical-sql-anthony-debarros/ch04/listing_04-04.sql)|18
+04|[using the interval data type](./practical-sql-anthony-debarros/ch04/listing_04-05.sql)|19
+04|[three cast() examples](./practical-sql-anthony-debarros/ch04/listing_04-06.sql)|20
 <hr/>
 
 ### 2: SoftUni
