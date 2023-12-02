@@ -17,6 +17,7 @@ chapter|solution|num
 02|[create a database - analysis](./practical-sql-anthony-debarros/ch02/listing_02-01.sql)|2
 02|[create table - teachers](./practical-sql-anthony-debarros/ch02/listing_02-02.sql)|3
 02|[insert data - teachers](./practical-sql-anthony-debarros/ch02/listing_02-03.sql)|4
+03|[querying all raws and columns - teachers](./practical-sql-anthony-debarros/ch03/listing_03-01.sql)|5
 <hr/>
 
 ### 2: SoftUni
