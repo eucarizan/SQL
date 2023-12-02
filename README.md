@@ -25,6 +25,7 @@ chapter|solution|num
 03|[querying distinct pairs of values](./practical-sql-anthony-debarros/ch03/listing_03-06.sql)|10
 03|[filtering rows using where](./practical-sql-anthony-debarros/ch03/listing_03-07.sql)|11
 03|[filtering with like and ilike](./practical-sql-anthony-debarros/ch03/listing_03-08.sql)|12
+03|[combining operators using and & or](./practical-sql-anthony-debarros/ch03/listing_03-09)|13
 <hr/>
 
 ### 2: SoftUni
