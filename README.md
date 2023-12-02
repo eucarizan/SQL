@@ -23,6 +23,7 @@ chapter|solution|num
 03|[sorting multiple columns with order by](./practical-sql-anthony-debarros/ch03/listing_03-04.sql)|8
 03|[querying distinct values](./practical-sql-anthony-debarros/ch03/listing_03-05.sql)|9
 03|[querying distinct pairs of values](./practical-sql-anthony-debarros/ch03/listing_03-06.sql)|10
+03|[filtering rows with where](./practical-sql-anthony-debarros/ch03/listing_03-07.sql)|11
 <hr/>
 
 ### 2: SoftUni
