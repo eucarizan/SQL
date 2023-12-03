@@ -33,6 +33,16 @@ chapter|solution|num
 04|[the timestamp and interval types in action](./practical-sql-anthony-debarros/ch04/listing_04-04.sql)|18
 04|[using the interval data type](./practical-sql-anthony-debarros/ch04/listing_04-05.sql)|19
 04|[three cast() examples](./practical-sql-anthony-debarros/ch04/listing_04-06.sql)|20
+05|[using copy for data import](./practical-sql-anthony-debarros/ch05/listing_05-01.sql)|21
+05|[create table statement for census county population estimates](./practical-sql-anthony-debarros/ch05/listing_05-02.sql)|22
+05|[importing census data using copy](./practical-sql-anthony-debarros/ch05/listing_05-03.sql)|23
+05|[creating a table to track superviser salaries](./practical-sql-anthony-debarros/ch05/listing_05-04.sql)|24
+05|[importing salaries data from csv to three table columns](./practical-sql-anthony-debarros/ch05/listing_05-05.sql)|25
+05|[importing a subset of rows with where](./practical-sql-anthony-debarros/ch05/listing_05-06.sql)|26
+05|[using a temporary table to add a defalt value to a column during import](./practical-sql-anthony-debarros/ch05/listing_05-07.sql)|27
+05|[exporting an entire table with copy](./practical-sql-anthony-debarros/ch05/listing_05-08.sql)|28
+05|[exporting selected columns from a table with copy](./practical-sql-anthony-debarros/ch05/listing_05-09.sql)|29
+05|[exporting query result with copy](./practical-sql-anthony-debarros/ch05/listing_05-10.sql)|30 
 <hr/>
 
 ### 2: SoftUni
