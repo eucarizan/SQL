@@ -80,7 +80,9 @@ chapter|solution|num
 06|[selecting census population estimate columns with aliases](./practical-sql-anthony-debarros/ch06/listing_06-04.sql)|34
 06|[subtracting two columns in us_counties_pop_est_2019](./practical-sql-anthony-debarros/ch06/listing_06-05.sql)|35
 06|[checking census data totals](./practical-sql-anthony-debarros/ch06/listing_06-06.sql)|36
+06|[calculating the percent of a county's area that is water](./practical-sql-anthony-debarros/ch06/listing_06-07.sql)|37
 <hr/>
+<!-- 06|[n](./practical-sql-anthony-debarros/ch06/listing_06-0.sql)|0 -->
 
 <!-- #### Ch07: Joining Tables in a Relational Database <hr/>-->
 <!-- #### Ch08: Table Design That Works for You <hr/> -->
