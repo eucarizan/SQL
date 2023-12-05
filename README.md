@@ -81,7 +81,8 @@ chapter|solution|num
 06|[subtracting two columns in us_counties_pop_est_2019](./practical-sql-anthony-debarros/ch06/listing_06-05.sql)|35
 06|[checking census data totals](./practical-sql-anthony-debarros/ch06/listing_06-06.sql)|36
 06|[calculating the percent of a county's area that is water](./practical-sql-anthony-debarros/ch06/listing_06-07.sql)|37
-06|[calculating the percent change](./practical-sql-anthony-debarros/ch06/listing_06-08.sql)|37
+06|[calculating the percent change](./practical-sql-anthony-debarros/ch06/listing_06-08.sql)|38
+06|[using the sum() and avg() aggregate functions](./practical-sql-anthony-debarros/ch06/listing_06-09.sql)|39
 <hr/>
 <!-- 06|[n](./practical-sql-anthony-debarros/ch06/listing_06-0.sql)|0 -->
 
