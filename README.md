@@ -4,6 +4,12 @@
 - [SQL practice](#sql-practice)
   - [Knowledge Map](#knowledge-map)
     - [1: Practical SQL (book)](#1-practical-sql-book)
+      - [Ch01: Setting Up Your Coding Environment](#ch01-setting-up-your-coding-environment)
+      - [Ch02: Creating Your First Database and Table](#ch02-creating-your-first-database-and-table)
+      - [Ch03: Beginning Data Exploration with SELECT](#ch03-beginning-data-exploration-with-select)
+      - [Ch04: Understading Data Types](#ch04-understading-data-types)
+      - [Ch05: Importing and Exporting Data](#ch05-importing-and-exporting-data)
+      - [Ch06: Basic Math and Stats with SQL](#ch06-basic-math-and-stats-with-sql)
     - [2: SoftUni](#2-softuni)
     - [3: Hyperskill](#3-hyperskill)
     - [4: SQL Puzzles and Answers (book)](#4-sql-puzzles-and-answers-book)
@@ -62,7 +68,7 @@ chapter|solution|num
 05|[using a temporary table to add a defalt value to a column during import](./practical-sql-anthony-debarros/ch05/listing_05-07.sql)|27
 05|[exporting an entire table with copy](./practical-sql-anthony-debarros/ch05/listing_05-08.sql)|28
 05|[exporting selected columns from a table with copy](./practical-sql-anthony-debarros/ch05/listing_05-09.sql)|29
-05|[exporting query result with copy](./practical-sql-anthony-debarros/ch05/listing_05-10.sql)|30 
+05|[exporting query result with copy](./practical-sql-anthony-debarros/ch05/listing_05-10.sql)|30
 <hr/>
 
 #### Ch06: Basic Math and Stats with SQL
@@ -70,10 +76,10 @@ chapter|solution|num
 :-:|:-:|:-:
 06|[basic addition, subtraciton and multiplicatin with sql](./practical-sql-anthony-debarros/ch06/listing_06-01.sql)|31
 06|[integer and decimal division with sql](./practical-sql-anthony-debarros/ch06/listing_06-02.sql)|32
-06|[exponents, roots, and factorials with sql](./practical-sql-anthony-debarros/ch06/listing_06-03.sql)|33 
+06|[exponents, roots, and factorials with sql](./practical-sql-anthony-debarros/ch06/listing_06-03.sql)|33
 06|[selecting census population estimate columns with aliases](./practical-sql-anthony-debarros/ch06/listing_06-04.sql)|34
+06|[subtracting two columns in us_counties_pop_est_2019](./practical-sql-anthony-debarros/ch06/listing_06-05.sql)|35
 <hr/>
-<!-- 06|[subtracting two columns in us_counties_pop_est_2019](./practical-sql-anthony-debarros/ch06/listing_06-05.sql)|35 -->
 <!-- 06|[checking census data totals](./practical-sql-anthony-debarros/ch06/listing_06-06.sql)|36 -->
 
 <!-- #### Ch07: Joining Tables in a Relational Database <hr/>-->
