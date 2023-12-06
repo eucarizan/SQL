@@ -85,6 +85,7 @@ chapter|solution|num
 06|[using the sum() and avg() aggregate functions](./practical-sql-anthony-debarros/ch06/listing_06-09.sql)|39
 06|[testing sql percentile functions](./practical-sql-anthony-debarros/ch06/listing_06-10.sql)|40
 06|[using sum(), avg(), and percentile_cont() aggregate functions](./practical-sql-anthony-debarros/ch06/listing_06-11.sql)|41
+06|[passing an array of values to percentile_cont()](./practical-sql-anthony-debarros/ch06/listing_06-12.sql)|42 -->
 <hr/>
 <!-- 06|[n](./practical-sql-anthony-debarros/ch06/listing_06-0.sql)|0 -->
 
