@@ -105,6 +105,7 @@ chapter|solution|num
 07|[using cross join](./practical-sql-anthony-debarros/ch07/listing_07-09.sql)|53
 07|[filtering to show missing values with is null](./practical-sql-anthony-debarros/ch07/listing_07-10.sql)|54
 07|[querying specific columns in a join](./practical-sql-anthony-debarros/ch07/listing_07-11.sql)|55
+07|[simplifying code with table aliases](./practical-sql-anthony-debarros/ch07/listing_07-12.sql)|56
 <hr/>
 <!-- 07|[](./practical-sql-anthony-debarros/ch07/listing_07-0.sql)|0 -->
 
