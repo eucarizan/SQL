@@ -83,6 +83,7 @@ chapter|solution|num
 06|[calculating the percent of a county's area that is water](./practical-sql-anthony-debarros/ch06/listing_06-07.sql)|37
 06|[calculating the percent change](./practical-sql-anthony-debarros/ch06/listing_06-08.sql)|38
 06|[using the sum() and avg() aggregate functions](./practical-sql-anthony-debarros/ch06/listing_06-09.sql)|39
+06|[testing sql percentile functions](./practical-sql-anthony-debarros/ch06/listing_06-10.sql)|40
 <hr/>
 <!-- 06|[n](./practical-sql-anthony-debarros/ch06/listing_06-0.sql)|0 -->
 
