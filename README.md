@@ -102,8 +102,12 @@ chapter|solution|num
 07|[using left join](./practical-sql-anthony-debarros/ch07/listing_07-06.sql)|50
 07|[using right join](./practical-sql-anthony-debarros/ch07/listing_07-07.sql)|51
 07|[using full outer join](./practical-sql-anthony-debarros/ch07/listing_07-08.sql)|52
+07|[using cross join](./practical-sql-anthony-debarros/ch07/listing_07-09.sql)|53
 <hr/>
-<!-- 07|[n](./practical-sql-anthony-debarros/ch07/listing_07-0.sql)|0 -->
+<!-- 07|[](./practical-sql-anthony-debarros/ch07/listing_07-0.sql)|0 -->
+
+<!-- chapter|solution|num -->
+<!-- :-:|:-:|:-: -->
 
 <!-- #### Ch08: Table Design That Works for You <hr/> -->
 <!-- #### Ch09: Extracting Information by Grouping and Summarizing <hr/> -->
