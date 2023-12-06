@@ -10,6 +10,7 @@
       - [Ch04: Understading Data Types](#ch04-understading-data-types)
       - [Ch05: Importing and Exporting Data](#ch05-importing-and-exporting-data)
       - [Ch06: Basic Math and Stats with SQL](#ch06-basic-math-and-stats-with-sql)
+      - [Ch07: Joining Tables in a Relational Database](#ch07-joining-tables-in-a-relational-database)
     - [2: SoftUni](#2-softuni)
     - [3: Hyperskill](#3-hyperskill)
     - [4: SQL Puzzles and Answers (book)](#4-sql-puzzles-and-answers-book)
@@ -93,7 +94,8 @@ chapter|solution|num
 #### Ch07: Joining Tables in a Relational Database
 chapter|solution|num
 :-:|:-:|:-:
-07|[creating the departments and employees table](./practical-sql-anthony-debarros/ch07/listing_07-01.sql)|45 -->
+07|[creating the departments and employees table](./practical-sql-anthony-debarros/ch07/listing_07-01.sql)|45
+07|[joining the employees and departments table](./practical-sql-anthony-debarros/ch07/listing_07-02.sql)|46
 <hr/>
 <!-- 07|[n](./practical-sql-anthony-debarros/ch07/listing_07-0.sql)|0 -->
 
