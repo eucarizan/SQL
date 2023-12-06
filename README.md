@@ -103,6 +103,7 @@ chapter|solution|num
 07|[using right join](./practical-sql-anthony-debarros/ch07/listing_07-07.sql)|51
 07|[using full outer join](./practical-sql-anthony-debarros/ch07/listing_07-08.sql)|52
 07|[using cross join](./practical-sql-anthony-debarros/ch07/listing_07-09.sql)|53
+07|[filtering to show missing values with is null](./practical-sql-anthony-debarros/ch07/listing_07-10.sql)|54
 <hr/>
 <!-- 07|[](./practical-sql-anthony-debarros/ch07/listing_07-0.sql)|0 -->
 
