@@ -99,6 +99,7 @@ chapter|solution|num
 07|[creating two tables to explore join types](./practical-sql-anthony-debarros/ch07/listing_07-03.sql)|47
 07|[using join](./practical-sql-anthony-debarros/ch07/listing_07-04.sql)|48
 07|[join with using](./practical-sql-anthony-debarros/ch07/listing_07-05.sql)|49
+07|[using left join](./practical-sql-anthony-debarros/ch07/listing_07-06.sql)|50
 <hr/>
 <!-- 07|[n](./practical-sql-anthony-debarros/ch07/listing_07-0.sql)|0 -->
 
