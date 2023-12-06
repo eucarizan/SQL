@@ -97,6 +97,7 @@ chapter|solution|num
 07|[creating the departments and employees table](./practical-sql-anthony-debarros/ch07/listing_07-01.sql)|45
 07|[joining the employees and departments table](./practical-sql-anthony-debarros/ch07/listing_07-02.sql)|46
 07|[creating two tables to explore join types](./practical-sql-anthony-debarros/ch07/listing_07-03.sql)|47
+07|[using join](./practical-sql-anthony-debarros/ch07/listing_07-04.sql)|48
 <hr/>
 <!-- 07|[n](./practical-sql-anthony-debarros/ch07/listing_07-0.sql)|0 -->
 
