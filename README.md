@@ -89,9 +89,14 @@ chapter|solution|num
 06|[using unnest() to turn an array into rows](./practical-sql-anthony-debarros/ch06/listing_06-13.sql)|43
 06|[finding the most frequent value with mode()](./practical-sql-anthony-debarros/ch06/listing_06-14.sql)|44
 <hr/>
-<!-- 06|[n](./practical-sql-anthony-debarros/ch06/listing_06-0.sql)|0 -->
 
-<!-- #### Ch07: Joining Tables in a Relational Database <hr/>-->
+#### Ch07: Joining Tables in a Relational Database
+chapter|solution|num
+:-:|:-:|:-:
+07|[creating the departments and employees table](./practical-sql-anthony-debarros/ch07/listing_07-01.sql)|45 -->
+<hr/>
+<!-- 07|[n](./practical-sql-anthony-debarros/ch07/listing_07-0.sql)|0 -->
+
 <!-- #### Ch08: Table Design That Works for You <hr/> -->
 <!-- #### Ch09: Extracting Information by Grouping and Summarizing <hr/> -->
 <!-- #### Ch10: Inspecting and Modifying Data <hr/> -->
