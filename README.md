@@ -101,6 +101,7 @@ chapter|solution|num
 07|[join with using](./practical-sql-anthony-debarros/ch07/listing_07-05.sql)|49
 07|[using left join](./practical-sql-anthony-debarros/ch07/listing_07-06.sql)|50
 07|[using right join](./practical-sql-anthony-debarros/ch07/listing_07-07.sql)|51
+07|[using full outer join](./practical-sql-anthony-debarros/ch07/listing_07-08.sql)|52
 <hr/>
 <!-- 07|[n](./practical-sql-anthony-debarros/ch07/listing_07-0.sql)|0 -->
 
