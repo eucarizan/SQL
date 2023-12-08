@@ -109,6 +109,7 @@ chapter|solution|num
 07|[joining multiple tables](./practical-sql-anthony-debarros/ch07/listing_07-13.sql)|57
 07|[combining query results with union](./practical-sql-anthony-debarros/ch07/listing_07-14.sql)|58
 07|[combining query results with union all](./practical-sql-anthony-debarros/ch07/listing_07-15.sql)|59
+07|[customizing a union query](./practical-sql-anthony-debarros/ch07/listing_07-16.sql)|60
 <hr/>
 <!-- 07|[](./practical-sql-anthony-debarros/ch07/listing_07-0.sql)|0 -->
 
