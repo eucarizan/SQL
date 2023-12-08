@@ -107,6 +107,7 @@ chapter|solution|num
 07|[querying specific columns in a join](./practical-sql-anthony-debarros/ch07/listing_07-11.sql)|55
 07|[simplifying code with table aliases](./practical-sql-anthony-debarros/ch07/listing_07-12.sql)|56
 07|[joining multiple tables](./practical-sql-anthony-debarros/ch07/listing_07-13.sql)|57
+07|[combining query results with union](./practical-sql-anthony-debarros/ch07/listing_07-14.sql)|58
 <hr/>
 <!-- 07|[](./practical-sql-anthony-debarros/ch07/listing_07-0.sql)|0 -->
 
