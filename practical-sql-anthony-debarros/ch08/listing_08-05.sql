@@ -10,3 +10,5 @@ VALUES
     ('Beachball Polish', '2020-03-15 09:21-07'),
     ('Wrinkle De-Atomizer', '2017-05-22 14:00-07'),
     ('Flux Capacitor', '1985-10-26 01:18:00-07');
+
+SELECT * FROM surrogate_key_example;

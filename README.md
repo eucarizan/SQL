@@ -123,6 +123,7 @@ chapter|solution|num
 08|[declaring a composite primary key as a natural key](./practical-sql-anthony-debarros/ch08/listing_08-03.sql)|65
 08|[example of a composite primary key violation](./practical-sql-anthony-debarros/ch08/listing_08-04.sql)|66
 08|[declaring a bigint column as a surrogate key using identity](./practical-sql-anthony-debarros/ch08/listing_08-05.sql)|67
+08|[restarting an identity sequence](./practical-sql-anthony-debarros/ch08/listing_08-06.sql)|68
 <hr/>
 <!-- 08|[](./practical-sql-anthony-debarros/ch08/listing_08-0.sql)|0 -->
 
