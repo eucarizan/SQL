@@ -11,6 +11,7 @@
       - [Ch05: Importing and Exporting Data](#ch05-importing-and-exporting-data)
       - [Ch06: Basic Math and Stats with SQL](#ch06-basic-math-and-stats-with-sql)
       - [Ch07: Joining Tables in a Relational Database](#ch07-joining-tables-in-a-relational-database)
+      - [Ch08: Table Design That Works for You](#ch08-table-design-that-works-for-you)
     - [2: SoftUni](#2-softuni)
     - [3: Hyperskill](#3-hyperskill)
     - [4: SQL Puzzles and Answers (book)](#4-sql-puzzles-and-answers-book)
@@ -118,6 +119,7 @@ chapter|solution|num
 chapter|solution|num
 :-:|:-:|:-:
 08|[declaring a single-column natural key as a primary key](./practical-sql-anthony-debarros/ch08/listing_08-01.sql)|63
+08|[an example of a primary key violation](./practical-sql-anthony-debarros/ch08/listing_08-02.sql)|64
 <hr/>
 <!-- 08|[](./practical-sql-anthony-debarros/ch08/listing_08-0.sql)|0 -->
 
