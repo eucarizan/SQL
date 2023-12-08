@@ -120,6 +120,7 @@ chapter|solution|num
 :-:|:-:|:-:
 08|[declaring a single-column natural key as a primary key](./practical-sql-anthony-debarros/ch08/listing_08-01.sql)|63
 08|[an example of a primary key violation](./practical-sql-anthony-debarros/ch08/listing_08-02.sql)|64
+08|[declaring a composite primary key as a natural key](./practical-sql-anthony-debarros/ch08/listing_08-03.sql)|65
 <hr/>
 <!-- 08|[](./practical-sql-anthony-debarros/ch08/listing_08-0.sql)|0 -->
 
