@@ -111,6 +111,7 @@ chapter|solution|num
 07|[combining query results with union all](./practical-sql-anthony-debarros/ch07/listing_07-15.sql)|59
 07|[customizing a union query](./practical-sql-anthony-debarros/ch07/listing_07-16.sql)|60
 07|[combining query results with intersect and except](./practical-sql-anthony-debarros/ch07/listing_07-17.sql)|61
+07|[performing math on joined census tables](./practical-sql-anthony-debarros/ch07/listing_07-18.sql)|62
 <hr/>
 <!-- 07|[](./practical-sql-anthony-debarros/ch07/listing_07-0.sql)|0 -->
 
