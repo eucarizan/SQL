@@ -113,24 +113,30 @@ chapter|solution|num
 07|[combining query results with intersect and except](./practical-sql-anthony-debarros/ch07/listing_07-17.sql)|61
 07|[performing math on joined census tables](./practical-sql-anthony-debarros/ch07/listing_07-18.sql)|62
 <hr/>
-<!-- 07|[](./practical-sql-anthony-debarros/ch07/listing_07-0.sql)|0 -->
+
+#### Ch08: Table Design That Works for You
+chapter|solution|num
+:-:|:-:|:-:
+08|[declaring a single-column natural key as a primary key](./practical-sql-anthony-debarros/ch08/listing_08-01.sql)|63
+<hr/>
+<!-- 08|[](./practical-sql-anthony-debarros/ch08/listing_08-0.sql)|0 -->
+
+<!-- #### Ch09: Extracting Information by Grouping and Summarizing -->
+<!-- #### Ch10: Inspecting and Modifying Data -->
+<!-- #### Ch11: Statistical Functions in SQL -->
+<!-- #### Ch12: Working with Dates and Times -->
+<!-- #### Ch13: Advanced Query Techniques -->
+<!-- #### Ch14: Mining Text to Find Meaningful Data -->
+<!-- #### Ch15: Analyzing Spatial Data with PostGIS -->
+<!-- #### Ch16: Working with JSON Data -->
+<!-- #### Ch17: Saving Time with Views, Functions, and Triggers -->
+<!-- #### Ch18: Using PostgreSQL from the Command Line -->
+<!-- #### Ch19: Maintaining Your Database -->
+<!-- #### Ch20: Telling Your Data's Story -->
 
 <!-- chapter|solution|num -->
 <!-- :-:|:-:|:-: -->
-
-<!-- #### Ch08: Table Design That Works for You <hr/> -->
-<!-- #### Ch09: Extracting Information by Grouping and Summarizing <hr/> -->
-<!-- #### Ch10: Inspecting and Modifying Data <hr/> -->
-<!-- #### Ch11: Statistical Functions in SQL <hr/> -->
-<!-- #### Ch12: Working with Dates and Times <hr/> -->
-<!-- #### Ch13: Advanced Query Techniques <hr/> -->
-<!-- #### Ch14: Mining Text to Find Meaningful Data <hr/> -->
-<!-- #### Ch15: Analyzing Spatial Data with PostGIS <hr/> -->
-<!-- #### Ch16: Working with JSON Data <hr/> -->
-<!-- #### Ch17: Saving Time with Views, Functions, and Triggers <hr/> -->
-<!-- #### Ch18: Using PostgreSQL from the Command Line <hr/> -->
-<!-- #### Ch19: Maintaining Your Database <hr/> -->
-<!-- #### Ch20: Telling Your Data's Story <hr/> -->
+<hr/>
 
 ### 2: SoftUni
 - SoftUni DB exercises
