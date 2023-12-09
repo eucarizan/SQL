@@ -126,6 +126,7 @@ chapter|solution|num
 08|[restarting an identity sequence](./practical-sql-anthony-debarros/ch08/listing_08-06.sql)|68
 08|[a foreign key example](./practical-sql-anthony-debarros/ch08/listing_08-07.sql)|69
 08|[examples of check constraints](./practical-sql-anthony-debarros/ch08/listing_08-08.sql)|70
+08|[a unique constraint example](./practical-sql-anthony-debarros/ch08/listing_08-09.sql)|71
 <hr/>
 <!-- 08|[](./practical-sql-anthony-debarros/ch08/listing_08-0.sql)|0 -->
 
