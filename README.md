@@ -125,6 +125,7 @@ chapter|solution|num
 08|[declaring a bigint column as a surrogate key using identity](./practical-sql-anthony-debarros/ch08/listing_08-05.sql)|67
 08|[restarting an identity sequence](./practical-sql-anthony-debarros/ch08/listing_08-06.sql)|68
 08|[a foreign key example](./practical-sql-anthony-debarros/ch08/listing_08-07.sql)|69
+08|[examples of check constraints](./practical-sql-anthony-debarros/ch08/listing_08-08.sql)|70
 <hr/>
 <!-- 08|[](./practical-sql-anthony-debarros/ch08/listing_08-0.sql)|0 -->
 
