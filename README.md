@@ -133,9 +133,12 @@ chapter|solution|num
 08|[benchmark queries for index performance](./practical-sql-anthony-debarros/ch08/listing_08-13.sql)|75
 08|[creating a b-tree index on the new_york_addresses table](./practical-sql-anthony-debarros/ch08/listing_08-14.sql)|76
 <hr/>
-<!-- 08|[](./practical-sql-anthony-debarros/ch08/listing_08-0.sql)|0 -->
 
-<!-- #### Ch09: Extracting Information by Grouping and Summarizing -->
+#### Ch09: Extracting Information by Grouping and Summarizing
+09|[creating and filling the 2018 public libraries survey table](./practical-sql-anthony-debarros/ch09/listing_09-01.sql)|77
+<hr/>
+<!-- 09|[](./practical-sql-anthony-debarros/ch09/listing_09-0.sql)|0 -->
+
 <!-- #### Ch10: Inspecting and Modifying Data -->
 <!-- #### Ch11: Statistical Functions in SQL -->
 <!-- #### Ch12: Working with Dates and Times -->
