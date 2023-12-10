@@ -128,6 +128,7 @@ chapter|solution|num
 08|[examples of check constraints](./practical-sql-anthony-debarros/ch08/listing_08-08.sql)|70
 08|[a unique constraint example](./practical-sql-anthony-debarros/ch08/listing_08-09.sql)|71
 08|[a not null constraint example](./practical-sql-anthony-debarros/ch08/listing_08-10.sql)|72
+08|[dropping and adding a primary key and a not null constraint](./practical-sql-anthony-debarros/ch08/listing_08-11.sql)|73
 <hr/>
 <!-- 08|[](./practical-sql-anthony-debarros/ch08/listing_08-0.sql)|0 -->
 
