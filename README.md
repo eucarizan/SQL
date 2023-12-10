@@ -131,6 +131,7 @@ chapter|solution|num
 08|[dropping and adding a primary key and a not null constraint](./practical-sql-anthony-debarros/ch08/listing_08-11.sql)|73
 08|[importing new york city address data](./practical-sql-anthony-debarros/ch08/listing_08-12.sql)|74
 08|[benchmark queries for index performance](./practical-sql-anthony-debarros/ch08/listing_08-13.sql)|75
+08|[creating a b-tree index on the new_york_addresses table](./practical-sql-anthony-debarros/ch08/listing_08-14.sql)|76
 <hr/>
 <!-- 08|[](./practical-sql-anthony-debarros/ch08/listing_08-0.sql)|0 -->
 
