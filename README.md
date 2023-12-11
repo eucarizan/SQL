@@ -149,6 +149,7 @@ chapter|solution|num
 09|[using group by with count() on the stabr column](./practical-sql-anthony-debarros/ch09/listing_09-09.sql)|85
 09|[using group by with count() of the stabr and stataddr columns](./practical-sql-anthony-debarros/ch09/listing_09-10.sql)|86
 09|[using the sum() aggregate function to total visits to libraries in 2016, 2017, and 2018](./practical-sql-anthony-debarros/ch09/listing_09-11.sql)|87
+09|[using sum() to total visits on joined 2018, 2017, and 2016 tables](./practical-sql-anthony-debarros/ch09/listing_09-12.sql)|88
 <hr/>
 <!-- 09|[](./practical-sql-anthony-debarros/ch09/listing_09-0.sql)|0 -->
 
