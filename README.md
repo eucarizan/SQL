@@ -12,6 +12,7 @@
       - [Ch06: Basic Math and Stats with SQL](#ch06-basic-math-and-stats-with-sql)
       - [Ch07: Joining Tables in a Relational Database](#ch07-joining-tables-in-a-relational-database)
       - [Ch08: Table Design That Works for You](#ch08-table-design-that-works-for-you)
+      - [Ch09: Extracting Information by Grouping and Summarizing](#ch09-extracting-information-by-grouping-and-summarizing)
     - [2: SoftUni](#2-softuni)
     - [3: Hyperskill](#3-hyperskill)
     - [4: SQL Puzzles and Answers (book)](#4-sql-puzzles-and-answers-book)
@@ -135,7 +136,10 @@ chapter|solution|num
 <hr/>
 
 #### Ch09: Extracting Information by Grouping and Summarizing
+chapter|solution|num
+:-:|:-:|:-:
 09|[creating and filling the 2018 public libraries survey table](./practical-sql-anthony-debarros/ch09/listing_09-01.sql)|77
+09|[creating and filling the 2017 and 2016 public libraries survey table](./practical-sql-anthony-debarros/ch09/listing_09-02.sql)|78
 <hr/>
 <!-- 09|[](./practical-sql-anthony-debarros/ch09/listing_09-0.sql)|0 -->
 
@@ -153,7 +157,6 @@ chapter|solution|num
 
 <!-- chapter|solution|num -->
 <!-- :-:|:-:|:-: -->
-<hr/>
 
 ### 2: SoftUni
 - SoftUni DB exercises
