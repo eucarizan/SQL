@@ -144,6 +144,7 @@ chapter|solution|num
 09|[using count() for the number of values in a column](./practical-sql-anthony-debarros/ch09/listing_09-04.sql)|80
 09|[using count() for the number of distinct values in a column](./practical-sql-anthony-debarros/ch09/listing_09-05.sql)|81
 09|[finding the most and fewest vists using max() and min()](./practical-sql-anthony-debarros/ch09/listing_09-06.sql)|82
+09|[using group by on the stabr column](./practical-sql-anthony-debarros/ch09/listing_09-07.sql)|83
 <hr/>
 <!-- 09|[](./practical-sql-anthony-debarros/ch09/listing_09-0.sql)|0 -->
 
