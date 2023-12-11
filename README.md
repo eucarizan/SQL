@@ -151,6 +151,7 @@ chapter|solution|num
 09|[using the sum() aggregate function to total visits to libraries in 2016, 2017, and 2018](./practical-sql-anthony-debarros/ch09/listing_09-11.sql)|87
 09|[using sum() to total visits on joined 2018, 2017, and 2016 tables](./practical-sql-anthony-debarros/ch09/listing_09-12.sql)|88
 09|[using group by to track percent change in library visits by state](./practical-sql-anthony-debarros/ch09/listing_09-13.sql)|89
+09|[using a having clause to filter the results of an aggregate query](./practical-sql-anthony-debarros/ch09/listing_09-14.sql)|90
 <hr/>
 <!-- 09|[](./practical-sql-anthony-debarros/ch09/listing_09-0.sql)|0 -->
 
