@@ -141,6 +141,7 @@ chapter|solution|num
 09|[creating and filling the 2018 public libraries survey table](./practical-sql-anthony-debarros/ch09/listing_09-01.sql)|77
 09|[creating and filling the 2017 and 2016 public libraries survey table](./practical-sql-anthony-debarros/ch09/listing_09-02.sql)|78
 09|[using count() for table row counts](./practical-sql-anthony-debarros/ch09/listing_09-03.sql)|79
+09|[using count() for the number of values in a column](./practical-sql-anthony-debarros/ch09/listing_09-04.sql)|80
 <hr/>
 <!-- 09|[](./practical-sql-anthony-debarros/ch09/listing_09-0.sql)|0 -->
 
