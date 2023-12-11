@@ -146,6 +146,7 @@ chapter|solution|num
 09|[finding the most and fewest vists using max() and min()](./practical-sql-anthony-debarros/ch09/listing_09-06.sql)|82
 09|[using group by on the stabr column](./practical-sql-anthony-debarros/ch09/listing_09-07.sql)|83
 09|[using group by on the city and stabr columns](./practical-sql-anthony-debarros/ch09/listing_09-08.sql)|84
+09|[using group by with count() on the stabr column](./practical-sql-anthony-debarros/ch09/listing_09-09.sql)|85
 <hr/>
 <!-- 09|[](./practical-sql-anthony-debarros/ch09/listing_09-0.sql)|0 -->
 
