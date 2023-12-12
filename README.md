@@ -172,6 +172,9 @@ chapter|solution|num
 10|[restoring original st column values](./practical-sql-anthony-debarros/ch10/listing_10-12.sql)|102
 10|[creating and filling the company_standard column](./practical-sql-anthony-debarros/ch10/listing_10-13.sql)|103
 10|[using an update statement to modify column values that match a string](./practical-sql-anthony-debarros/ch10/listing_10-14.sql)|104
+10|[creating and filling the zip_copy column](./practical-sql-anthony-debarros/ch10/listing_10-15.sql)|105
+10|[modifying codes in the zip column missing two leading zeros](./practical-sql-anthony-debarros/ch10/listing_10-16.sql)|106
+10|[modifying codes in the zip column missing one leading zero](./practical-sql-anthony-debarros/ch10/listing_10-17.sql)|107
 <hr/>
 <!-- 10|[](./practical-sql-anthony-debarros/ch10/listing_10-0.sql)|0
 -->
