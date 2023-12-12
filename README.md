@@ -178,6 +178,9 @@ chapter|solution|num
 10|[creating and filling a state_regions table](./practical-sql-anthony-debarros/ch10/listing_10-18.sql)|108
 10|[adding and updating an inspection_deadline column](./practical-sql-anthony-debarros/ch10/listing_10-19.sql)|109
 10|[viewing updated inspection_date values](./practical-sql-anthony-debarros/ch10/listing_10-20.sql)|110
+10|[deleting rows matching an expression](./practical-sql-anthony-debarros/ch10/listing_10-21.sql)|111
+10|[removing a column from a table using drop](./practical-sql-anthony-debarros/ch10/listing_10-22.sql)|112
+10|[removing a table from a databse using drop](./practical-sql-anthony-debarros/ch10/listing_10-23.sql)|113
 <hr/>
 <!-- 10|[](./practical-sql-anthony-debarros/ch10/listing_10-0.sql)|0
 -->
