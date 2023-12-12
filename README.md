@@ -159,6 +159,8 @@ chapter|solution|num
 :-:|:-:|:-: 
 10|[importing the fsis meat, poultry, and egg inspection directory](./practical-sql-anthony-debarros/ch10/listing_10-01.sql)|91
 10|[finding multiple companies at the same address](./practical-sql-anthony-debarros/ch10/listing_10-02.sql)|92
+10|[grouping and counting states](./practical-sql-anthony-debarros/ch10/listing_10-03.sql)|93
+10|[using is null to find missing values in the st column](./practical-sql-anthony-debarros/ch10/listing_10-04.sql)|94
 <hr/>
 <!-- 10|[](./practical-sql-anthony-debarros/ch10/listing_10-0.sql)|0 -->
 
