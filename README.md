@@ -182,6 +182,8 @@ chapter|solution|num
 10|[removing a column from a table using drop](./practical-sql-anthony-debarros/ch10/listing_10-22.sql)|112
 10|[removing a table from a databse using drop](./practical-sql-anthony-debarros/ch10/listing_10-23.sql)|113
 10|[demonstrating a transaction block](./practical-sql-anthony-debarros/ch10/listing_10-24.sql)|114
+10|[backing up a table while adding and filling a new column](./practical-sql-anthony-debarros/ch10/listing_10-25.sql)|115
+10|[swapping table names using alter table](./practical-sql-anthony-debarros/ch10/listing_10-26.sql)|116
 <hr/>
 <!-- 10|[](./practical-sql-anthony-debarros/ch10/listing_10-0.sql)|0
 -->
