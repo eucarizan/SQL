@@ -153,9 +153,15 @@ chapter|solution|num
 09|[using group by to track percent change in library visits by state](./practical-sql-anthony-debarros/ch09/listing_09-13.sql)|89
 09|[using a having clause to filter the results of an aggregate query](./practical-sql-anthony-debarros/ch09/listing_09-14.sql)|90
 <hr/>
-<!-- 09|[](./practical-sql-anthony-debarros/ch09/listing_09-0.sql)|0 -->
 
-<!-- #### Ch10: Inspecting and Modifying Data -->
+#### Ch10: Inspecting and Modifying Data
+chapter|solution|num 
+:-:|:-:|:-: 
+10|[importing the fsis meat, poultry, and egg inspection directory](./practical-sql-anthony-debarros/ch10/listing_10-01.sql)|91
+10|[finding multiple companies at the same address](./practical-sql-anthony-debarros/ch10/listing_10-02.sql)|92
+<hr/>
+<!-- 10|[](./practical-sql-anthony-debarros/ch10/listing_10-0.sql)|0 -->
+
 <!-- #### Ch11: Statistical Functions in SQL -->
 <!-- #### Ch12: Working with Dates and Times -->
 <!-- #### Ch13: Advanced Query Techniques -->
