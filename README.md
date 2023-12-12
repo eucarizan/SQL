@@ -164,6 +164,8 @@ chapter|solution|num
 10|[using is null to find missing values in the st column](./practical-sql-anthony-debarros/ch10/listing_10-04.sql)|94
 10|[using group by and count() to find inconsistent company names](./practical-sql-anthony-debarros/ch10/listing_10-05.sql)|95
 10|[using length() and count() to test the zip column](./practical-sql-anthony-debarros/ch10/listing_10-06.sql)|96
+10|[filtering with length() to find short zip values](./practical-sql-anthony-debarros/ch10/listing_10-07.sql)|97
+10|[backing up a table](./practical-sql-anthony-debarros/ch10/listing_10-08.sql)|98
 <hr/>
 <!-- 10|[](./practical-sql-anthony-debarros/ch10/listing_10-0.sql)|0
 -->
