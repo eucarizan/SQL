@@ -166,6 +166,7 @@ chapter|solution|num
 10|[using length() and count() to test the zip column](./practical-sql-anthony-debarros/ch10/listing_10-06.sql)|96
 10|[filtering with length() to find short zip values](./practical-sql-anthony-debarros/ch10/listing_10-07.sql)|97
 10|[backing up a table](./practical-sql-anthony-debarros/ch10/listing_10-08.sql)|98
+10|[creating and filling the st_copy column with alter table and update](./practical-sql-anthony-debarros/ch10/listing_10-09.sql)|99
 <hr/>
 <!-- 10|[](./practical-sql-anthony-debarros/ch10/listing_10-0.sql)|0
 -->
