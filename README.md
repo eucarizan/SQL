@@ -169,6 +169,7 @@ chapter|solution|num
 10|[creating and filling the st_copy column with alter table and update](./practical-sql-anthony-debarros/ch10/listing_10-09.sql)|99
 10|[checking values in the st and st_copy columns](./practical-sql-anthony-debarros/ch10/listing_10-10.sql)|100
 10|[updating the st column for the three establishments](./practical-sql-anthony-debarros/ch10/listing_10-11.sql)|101
+10|[restoring original st column values](./practical-sql-anthony-debarros/ch10/listing_10-12.sql)|102
 <hr/>
 <!-- 10|[](./practical-sql-anthony-debarros/ch10/listing_10-0.sql)|0
 -->
