@@ -13,6 +13,7 @@
       - [Ch07: Joining Tables in a Relational Database](#ch07-joining-tables-in-a-relational-database)
       - [Ch08: Table Design That Works for You](#ch08-table-design-that-works-for-you)
       - [Ch09: Extracting Information by Grouping and Summarizing](#ch09-extracting-information-by-grouping-and-summarizing)
+      - [Ch10: Inspecting and Modifying Data](#ch10-inspecting-and-modifying-data)
     - [2: SoftUni](#2-softuni)
     - [3: Hyperskill](#3-hyperskill)
     - [4: SQL Puzzles and Answers (book)](#4-sql-puzzles-and-answers-book)
@@ -162,22 +163,36 @@ chapter|solution|num
 10|[grouping and counting states](./practical-sql-anthony-debarros/ch10/listing_10-03.sql)|93
 10|[using is null to find missing values in the st column](./practical-sql-anthony-debarros/ch10/listing_10-04.sql)|94
 10|[using group by and count() to find inconsistent company names](./practical-sql-anthony-debarros/ch10/listing_10-05.sql)|95
+10|[using length() and count() to test the zip column](./practical-sql-anthony-debarros/ch10/listing_10-06.sql)|96
 <hr/>
-<!-- 10|[](./practical-sql-anthony-debarros/ch10/listing_10-0.sql)|0 -->
+<!-- 10|[](./practical-sql-anthony-debarros/ch10/listing_10-0.sql)|0
+-->
 
-<!-- #### Ch11: Statistical Functions in SQL -->
-<!-- #### Ch12: Working with Dates and Times -->
-<!-- #### Ch13: Advanced Query Techniques -->
-<!-- #### Ch14: Mining Text to Find Meaningful Data -->
-<!-- #### Ch15: Analyzing Spatial Data with PostGIS -->
-<!-- #### Ch16: Working with JSON Data -->
-<!-- #### Ch17: Saving Time with Views, Functions, and Triggers -->
-<!-- #### Ch18: Using PostgreSQL from the Command Line -->
-<!-- #### Ch19: Maintaining Your Database -->
-<!-- #### Ch20: Telling Your Data's Story -->
+<!-- #### Ch11: Statistical Functions in SQL 
+-->
+<!-- #### Ch12: Working with Dates and Times 
+-->
+<!-- #### Ch13: Advanced Query Techniques 
+-->
+<!-- #### Ch14: Mining Text to Find Meaningful Data 
+-->
+<!-- #### Ch15: Analyzing Spatial Data with PostGIS 
+-->
+<!-- #### Ch16: Working with JSON Data 
+-->
+<!-- #### Ch17: Saving Time with Views, Functions, and Triggers 
+-->
+<!-- #### Ch18: Using PostgreSQL from the Command Line 
+-->
+<!-- #### Ch19: Maintaining Your Database 
+-->
+<!-- #### Ch20: Telling Your Data's Story 
+-->
 
-<!-- chapter|solution|num -->
-<!-- :-:|:-:|:-: -->
+<!-- chapter|solution|num 
+-->
+<!-- :-:|:-:|:-: 
+-->
 
 ### 2: SoftUni
 - SoftUni DB exercises
