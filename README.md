@@ -175,6 +175,9 @@ chapter|solution|num
 10|[creating and filling the zip_copy column](./practical-sql-anthony-debarros/ch10/listing_10-15.sql)|105
 10|[modifying codes in the zip column missing two leading zeros](./practical-sql-anthony-debarros/ch10/listing_10-16.sql)|106
 10|[modifying codes in the zip column missing one leading zero](./practical-sql-anthony-debarros/ch10/listing_10-17.sql)|107
+10|[creating and filling a state_regions table](./practical-sql-anthony-debarros/ch10/listing_10-18.sql)|108
+10|[adding and updating an inspection_deadline column](./practical-sql-anthony-debarros/ch10/listing_10-19.sql)|109
+10|[viewing updated inspection_date values](./practical-sql-anthony-debarros/ch10/listing_10-20.sql)|110
 <hr/>
 <!-- 10|[](./practical-sql-anthony-debarros/ch10/listing_10-0.sql)|0
 -->
