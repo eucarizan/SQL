@@ -194,7 +194,8 @@ chapter|solution|num
 #### Ch13: Advanced Query Techniques 
 chapter|solution|num 
 :-:|:-:|:-: 
-13|[using a subquery in a where clause](./practical-sql-anthony-debarros/ch13/listing_13-0.sql)|117
+13|[using a subquery in a where clause](./practical-sql-anthony-debarros/ch13/listing_13-01.sql)|117
+13|[using a subquery in where clause with delete](./practical-sql-anthony-debarros/ch13/listing_13-02.sql)|118
 <hr/>
 <!-- 13|[](./practical-sql-anthony-debarros/ch13/listing_13-0.sql)|0
 -->
