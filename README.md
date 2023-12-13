@@ -185,15 +185,20 @@ chapter|solution|num
 10|[backing up a table while adding and filling a new column](./practical-sql-anthony-debarros/ch10/listing_10-25.sql)|115
 10|[swapping table names using alter table](./practical-sql-anthony-debarros/ch10/listing_10-26.sql)|116
 <hr/>
-<!-- 10|[](./practical-sql-anthony-debarros/ch10/listing_10-0.sql)|0
--->
 
 <!-- #### Ch11: Statistical Functions in SQL 
 -->
 <!-- #### Ch12: Working with Dates and Times 
 -->
-<!-- #### Ch13: Advanced Query Techniques 
+
+#### Ch13: Advanced Query Techniques 
+chapter|solution|num 
+:-:|:-:|:-: 
+13|[using a subquery in a where clause](./practical-sql-anthony-debarros/ch13/listing_13-0.sql)|117
+<hr/>
+<!-- 13|[](./practical-sql-anthony-debarros/ch13/listing_13-0.sql)|0
 -->
+
 <!-- #### Ch14: Mining Text to Find Meaningful Data 
 -->
 <!-- #### Ch15: Analyzing Spatial Data with PostGIS 
