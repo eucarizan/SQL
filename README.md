@@ -194,6 +194,7 @@ chapter|solution|num
 11|[using corr(y, x) to measure the relationship between educaiton and income](./practical-sql-anthony-debarros/ch11/listing_11-02.sql)|120
 11|[using corr(y, x) on additional variables](./practical-sql-anthony-debarros/ch11/listing_11-03.sql)|121
 11|[regression slope and intercept function](./practical-sql-anthony-debarros/ch11/listing_11-04.sql)|122
+11|[calculating the coefficient of determination, or r-squared](./practical-sql-anthony-debarros/ch11/listing_11-05.sql)|123
 <hr/>
 <!-- 11|[](./practical-sql-anthony-debarros/ch11/listing_11-0.sql)|0
 -->
