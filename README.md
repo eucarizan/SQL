@@ -196,6 +196,7 @@ chapter|solution|num
 11|[regression slope and intercept function](./practical-sql-anthony-debarros/ch11/listing_11-04.sql)|122
 11|[calculating the coefficient of determination, or r-squared](./practical-sql-anthony-debarros/ch11/listing_11-05.sql)|123
 11|[using the rank() and dense_rank() window functions](./practical-sql-anthony-debarros/ch11/listing_11-06.sql)|124
+11|[applying rank() within groups using partition by](./practical-sql-anthony-debarros/ch11/listing_11-07.sql)|125
 <hr/>
 <!-- 11|[](./practical-sql-anthony-debarros/ch11/listing_11-0.sql)|0
 -->
