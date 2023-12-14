@@ -14,6 +14,7 @@
       - [Ch08: Table Design That Works for You](#ch08-table-design-that-works-for-you)
       - [Ch09: Extracting Information by Grouping and Summarizing](#ch09-extracting-information-by-grouping-and-summarizing)
       - [Ch10: Inspecting and Modifying Data](#ch10-inspecting-and-modifying-data)
+      - [Ch11: Statistical Functions in SQL](#ch11-statistical-functions-in-sql)
     - [2: SoftUni](#2-softuni)
     - [3: Hyperskill](#3-hyperskill)
     - [4: SQL Puzzles and Answers (book)](#4-sql-puzzles-and-answers-book)
@@ -192,6 +193,7 @@ chapter|solution|num
 11|[creating a 2014-2018 acs 5-year estimates table and importing data](./practical-sql-anthony-debarros/ch13/listing_11-01.sql)|119
 11|[using corr(y, x) to measure the relationship between educaiton and income](./practical-sql-anthony-debarros/ch11/listing_11-02.sql)|120
 11|[using corr(y, x) on additional variables](./practical-sql-anthony-debarros/ch11/listing_11-03.sql)|121
+11|[regression slope and intercept function](./practical-sql-anthony-debarros/ch11/listing_11-04.sql)|122
 <hr/>
 <!-- 11|[](./practical-sql-anthony-debarros/ch11/listing_11-0.sql)|0
 -->
