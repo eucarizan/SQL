@@ -191,6 +191,7 @@ chapter|solution|num
 :-:|:-:|:-: 
 11|[creating a 2014-2018 acs 5-year estimates table and importing data](./practical-sql-anthony-debarros/ch13/listing_11-01.sql)|119
 11|[using corr(y, x) to measure the relationship between educaiton and income](./practical-sql-anthony-debarros/ch11/listing_11-02.sql)|120
+11|[using corr(y, x) on additional variables](./practical-sql-anthony-debarros/ch11/listing_11-03.sql)|121
 <hr/>
 <!-- 11|[](./practical-sql-anthony-debarros/ch11/listing_11-0.sql)|0
 -->
