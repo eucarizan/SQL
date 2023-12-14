@@ -195,6 +195,7 @@ chapter|solution|num
 11|[using corr(y, x) on additional variables](./practical-sql-anthony-debarros/ch11/listing_11-03.sql)|121
 11|[regression slope and intercept function](./practical-sql-anthony-debarros/ch11/listing_11-04.sql)|122
 11|[calculating the coefficient of determination, or r-squared](./practical-sql-anthony-debarros/ch11/listing_11-05.sql)|123
+11|[using the rank() and dense_rank() window functions](./practical-sql-anthony-debarros/ch11/listing_11-06.sql)|124
 <hr/>
 <!-- 11|[](./practical-sql-anthony-debarros/ch11/listing_11-0.sql)|0
 -->
