@@ -186,8 +186,15 @@ chapter|solution|num
 10|[swapping table names using alter table](./practical-sql-anthony-debarros/ch10/listing_10-26.sql)|116
 <hr/>
 
-<!-- #### Ch11: Statistical Functions in SQL 
+#### Ch11: Statistical Functions in SQL 
+chapter|solution|num 
+:-:|:-:|:-: 
+11|[creating a 2014-2018 acs 5-year estimates table and importing data](./practical-sql-anthony-debarros/ch13/listing_11-01.sql)|119
+11|[using corr(y, x) to measure the relationship between educaiton and income](./practical-sql-anthony-debarros/ch11/listing_11-02.sql)|120
+<hr/>
+<!-- 11|[](./practical-sql-anthony-debarros/ch11/listing_11-0.sql)|0
 -->
+
 <!-- #### Ch12: Working with Dates and Times 
 -->
 
