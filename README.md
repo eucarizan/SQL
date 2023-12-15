@@ -214,6 +214,7 @@ chapter|solution|num
 12|[setting the time zone for a client session](./practical-sql-anthony-debarros/ch12/listing_12-06.sql)|134
 12|[creating a table and importing nyc yellow taxi data](./practical-sql-anthony-debarros/ch12/listing_12-07.sql)|135
 12|[counting taxi trips by hour](./practical-sql-anthony-debarros/ch12/listing_12-08.sql)|136
+12|[exporting taxi pickups per hour to a csv file](./practical-sql-anthony-debarros/ch12/listing_12-09.sql)|137
 <hr/>
 <!-- 12|[](./practical-sql-anthony-debarros/ch12/listing_12-0.sql)|0
 -->
