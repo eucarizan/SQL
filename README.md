@@ -209,6 +209,9 @@ chapter|solution|num
 12|[extracting the components of a timestamp value](./practical-sql-anthony-debarros/ch12/listing_12-01.sql)|129
 12|[three functions for making datetimes from components](./practical-sql-anthony-debarros/ch12/listing_12-02.sql)|130
 12|[comparing current_timestamp and clock_timestamp() during row insert](./practical-sql-anthony-debarros/ch12/listing_12-03.sql)|131
+12|[viewing your current time zone setting](./practical-sql-anthony-debarros/ch12/listing_12-04.sql)|132
+12|[showing time zone abbreviations and names](./practical-sql-anthony-debarros/ch12/listing_12-05.sql)|133
+12|[setting the time zone for a client session](./practical-sql-anthony-debarros/ch12/listing_12-06.sql)|134
 <hr/>
 <!-- 12|[](./practical-sql-anthony-debarros/ch12/listing_12-0.sql)|0
 -->
