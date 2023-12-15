@@ -3,7 +3,7 @@ COPY
     (SELECT 
 	date_part('hour', tpep_pickup_datetime) AS trip_hour, 
 	count(*) 
-    FROM nys_yellow_taxi_trips
+    FROM nyc_yellow_taxi_trips
     GROUP BY trip_hour
     ORDER BY trip_hour)
 TO 'C:\YourDirectory\hourly_taxi_pickups.csv'
