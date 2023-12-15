@@ -15,6 +15,7 @@
       - [Ch09: Extracting Information by Grouping and Summarizing](#ch09-extracting-information-by-grouping-and-summarizing)
       - [Ch10: Inspecting and Modifying Data](#ch10-inspecting-and-modifying-data)
       - [Ch11: Statistical Functions in SQL](#ch11-statistical-functions-in-sql)
+      - [Ch12: Working with Dates and Times](#ch12-working-with-dates-and-times) 
     - [2: SoftUni](#2-softuni)
     - [3: Hyperskill](#3-hyperskill)
     - [4: SQL Puzzles and Answers (book)](#4-sql-puzzles-and-answers-book)
@@ -201,10 +202,13 @@ chapter|solution|num
 11|[finding business rates per thousand population in counties with 50,000 or more people](./practical-sql-anthony-debarros/ch11/listing_11-09.sql)|127
 11|[creating a rolling average for export data](./practical-sql-anthony-debarros/ch11/listing_11-10.sql)|128
 <hr/>
-<!-- 11|[](./practical-sql-anthony-debarros/ch11/listing_11-0.sql)|0
--->
 
-<!-- #### Ch12: Working with Dates and Times 
+#### Ch12: Working with Dates and Times 
+chapter|solution|num 
+:-:|:-:|:-: 
+12|[extracting the components of a timestamp value](./practical-sql-anthony-debarros/ch12/listing_12-01.sql)|129
+<hr/>
+<!-- 12|[](./practical-sql-anthony-debarros/ch12/listing_12-0.sql)|0
 -->
 
 #### Ch13: Advanced Query Techniques 
