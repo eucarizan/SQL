@@ -207,6 +207,7 @@ chapter|solution|num
 chapter|solution|num 
 :-:|:-:|:-: 
 12|[extracting the components of a timestamp value](./practical-sql-anthony-debarros/ch12/listing_12-01.sql)|129
+12|[three functions for making datetimes from components](./practical-sql-anthony-debarros/ch12/listing_12-02.sql)|130
 <hr/>
 <!-- 12|[](./practical-sql-anthony-debarros/ch12/listing_12-0.sql)|0
 -->
