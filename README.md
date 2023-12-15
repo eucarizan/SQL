@@ -198,6 +198,8 @@ chapter|solution|num
 11|[using the rank() and dense_rank() window functions](./practical-sql-anthony-debarros/ch11/listing_11-06.sql)|124
 11|[applying rank() within groups using partition by](./practical-sql-anthony-debarros/ch11/listing_11-07.sql)|125
 11|[creating and filling a table for census county business pattern data](./practical-sql-anthony-debarros/ch11/listing_11-08.sql)|126
+11|[finding business rates per thousand population in counties with 50,000 or more people](./practical-sql-anthony-debarros/ch11/listing_11-09.sql)|127
+11|[creating a rolling average for export data](./practical-sql-anthony-debarros/ch11/listing_11-10.sql)|128
 <hr/>
 <!-- 11|[](./practical-sql-anthony-debarros/ch11/listing_11-0.sql)|0
 -->
