@@ -16,6 +16,7 @@
       - [Ch10: Inspecting and Modifying Data](#ch10-inspecting-and-modifying-data)
       - [Ch11: Statistical Functions in SQL](#ch11-statistical-functions-in-sql)
       - [Ch12: Working with Dates and Times](#ch12-working-with-dates-and-times) 
+      - [Ch13: Advanced Query Techniques](#ch13-advanced-query-techniques)
     - [2: SoftUni](#2-softuni)
     - [3: Hyperskill](#3-hyperskill)
     - [4: SQL Puzzles and Answers (book)](#4-sql-puzzles-and-answers-book)
@@ -191,7 +192,7 @@ chapter|solution|num
 #### Ch11: Statistical Functions in SQL 
 chapter|solution|num 
 :-:|:-:|:-: 
-11|[creating a 2014-2018 acs 5-year estimates table and importing data](./practical-sql-anthony-debarros/ch13/listing_11-01.sql)|119
+11|[creating a 2014-2018 acs 5-year estimates table and importing data](./practical-sql-anthony-debarros/ch11/listing_11-01.sql)|119
 11|[using corr(y, x) to measure the relationship between educaiton and income](./practical-sql-anthony-debarros/ch11/listing_11-02.sql)|120
 11|[using corr(y, x) on additional variables](./practical-sql-anthony-debarros/ch11/listing_11-03.sql)|121
 11|[regression slope and intercept function](./practical-sql-anthony-debarros/ch11/listing_11-04.sql)|122
@@ -221,14 +222,13 @@ chapter|solution|num
 12|[calculating cumulative intervals using over](./practical-sql-anthony-debarros/ch12/listing_12-13.sql)|141
 12|[using justify_interval() to better format cumulative trip duration](./practical-sql-anthony-debarros/ch12/listing_12-14.sql)|142
 <hr/>
-<!-- 12|[](./practical-sql-anthony-debarros/ch12/listing_12-0.sql)|0
--->
 
 #### Ch13: Advanced Query Techniques 
 chapter|solution|num 
 :-:|:-:|:-: 
 13|[using a subquery in a where clause](./practical-sql-anthony-debarros/ch13/listing_13-01.sql)|117
 13|[using a subquery in where clause with delete](./practical-sql-anthony-debarros/ch13/listing_13-02.sql)|118
+13|[subquery as a derived table in a from clause](./practical-sql-anthony-debarros/ch13/listing_13-03.sql)|143
 <hr/>
 <!-- 13|[](./practical-sql-anthony-debarros/ch13/listing_13-0.sql)|0
 -->
