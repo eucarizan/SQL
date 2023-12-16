@@ -216,6 +216,8 @@ chapter|solution|num
 12|[counting taxi trips by hour](./practical-sql-anthony-debarros/ch12/listing_12-08.sql)|136
 12|[exporting taxi pickups per hour to a csv file](./practical-sql-anthony-debarros/ch12/listing_12-09.sql)|137
 12|[calculating median trip time by hour](./practical-sql-anthony-debarros/ch12/listing_12-10.sql)|138
+12|[creating a table to hold train trip data](./practical-sql-anthony-debarros/ch12/listing_12-11.sql)|139
+12|[calculating the length of each trip segment](./practical-sql-anthony-debarros/ch12/listing_12-12.sql)|140
 <hr/>
 <!-- 12|[](./practical-sql-anthony-debarros/ch12/listing_12-0.sql)|0
 -->
