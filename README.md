@@ -234,6 +234,7 @@ chapter|solution|num
 13|[using a subquery in a calculation](./practical-sql-anthony-debarros/ch13/listing_13-06.sql)|146
 13|[creating and filling a retirees table](./practical-sql-anthony-debarros/ch13/listing_13-07.sql)|147
 13|[generating values for the in operator](./practical-sql-anthony-debarros/ch13/listing_13-08.sql)|148
+13|[using a correlated subquery with where not exists](./practical-sql-anthony-debarros/ch13/listing_13-09.sql)|149
 <hr/>
 <!-- 13|[](./practical-sql-anthony-debarros/ch13/listing_13-0.sql)|0
 -->
