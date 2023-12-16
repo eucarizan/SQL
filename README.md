@@ -230,6 +230,8 @@ chapter|solution|num
 13|[using a subquery in where clause with delete](./practical-sql-anthony-debarros/ch13/listing_13-02.sql)|118
 13|[subquery as a derived table in a from clause](./practical-sql-anthony-debarros/ch13/listing_13-03.sql)|143
 13|[joining two derived tables](./practical-sql-anthony-debarros/ch13/listing_13-04.sql)|144
+13|[adding a subquery to a column list](./practical-sql-anthony-debarros/ch13/listing_13-05.sql)|145
+13|[using a subquery in a calculation](./practical-sql-anthony-debarros/ch13/listing_13-06.sql)|146
 <hr/>
 <!-- 13|[](./practical-sql-anthony-debarros/ch13/listing_13-0.sql)|0
 -->
