@@ -237,6 +237,7 @@ chapter|solution|num
 13|[using a correlated subquery with where exists](./practical-sql-anthony-debarros/ch13/listing_13-09.sql)|149
 13|[using a correlated subquery with where not exists](./practical-sql-anthony-debarros/ch13/listing_13-10.sql)|150
 13|[using lateral subqueries in the from clause](./practical-sql-anthony-debarros/ch13/listing_13-11.sql)|151
+13|[using a subquery with a lateral join](./practical-sql-anthony-debarros/ch13/listing_13-12.sql)|152
 <hr/>
 <!-- 13|[](./practical-sql-anthony-debarros/ch13/listing_13-0.sql)|0
 -->
