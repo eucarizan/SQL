@@ -239,6 +239,7 @@ chapter|solution|num
 13|[using lateral subqueries in the from clause](./practical-sql-anthony-debarros/ch13/listing_13-11.sql)|151
 13|[using a subquery with a lateral join](./practical-sql-anthony-debarros/ch13/listing_13-12.sql)|152
 13|[using a simple cte to count large counties](./practical-sql-anthony-debarros/ch13/listing_13-13.sql)|153
+13|[using ctes in a table join](./practical-sql-anthony-debarros/ch13/listing_13-14.sql)|154
 <hr/>
 <!-- 13|[](./practical-sql-anthony-debarros/ch13/listing_13-0.sql)|0
 -->
