@@ -236,6 +236,7 @@ chapter|solution|num
 13|[generating values for the in operator](./practical-sql-anthony-debarros/ch13/listing_13-08.sql)|148
 13|[using a correlated subquery with where exists](./practical-sql-anthony-debarros/ch13/listing_13-09.sql)|149
 13|[using a correlated subquery with where not exists](./practical-sql-anthony-debarros/ch13/listing_13-10.sql)|150
+13|[using lateral subqueries in the from clause](./practical-sql-anthony-debarros/ch13/listing_13-11.sql)|151
 <hr/>
 <!-- 13|[](./practical-sql-anthony-debarros/ch13/listing_13-0.sql)|0
 -->
