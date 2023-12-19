@@ -241,6 +241,8 @@ chapter|solution|num
 13|[using a simple cte to count large counties](./practical-sql-anthony-debarros/ch13/listing_13-13.sql)|153
 13|[using ctes in a table join](./practical-sql-anthony-debarros/ch13/listing_13-14.sql)|154
 13|[using ctes to minimize redundant code](./practical-sql-anthony-debarros/ch13/listing_13-15.sql)|155
+13|[creating and filling the ice_cream_survey.csv](./practical-sql-anthony-debarros/ch13/listing_13-16.sql)|156
+13|[generating the ice cream survey crosstab](./practical-sql-anthony-debarros/ch13/listing_13-17.sql)|157
 <hr/>
 <!-- 13|[](./practical-sql-anthony-debarros/ch13/listing_13-0.sql)|0
 -->
