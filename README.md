@@ -245,6 +245,7 @@ chapter|solution|num
 13|[generating the ice cream survey crosstab](./practical-sql-anthony-debarros/ch13/listing_13-17.sql)|157
 13|[creating and filling a temperature_readings table](./practical-sql-anthony-debarros/ch13/listing_13-18.sql)|158
 13|[generating the temperature readings crosstab](./practical-sql-anthony-debarros/ch13/listing_13-19.sql)|159
+13|[reclassifying temperature data with case](./practical-sql-anthony-debarros/ch13/listing_13-20.sql)|160
 <hr/>
 <!-- 13|[](./practical-sql-anthony-debarros/ch13/listing_13-0.sql)|0
 -->
