@@ -246,12 +246,19 @@ chapter|solution|num
 13|[creating and filling a temperature_readings table](./practical-sql-anthony-debarros/ch13/listing_13-18.sql)|158
 13|[generating the temperature readings crosstab](./practical-sql-anthony-debarros/ch13/listing_13-19.sql)|159
 13|[reclassifying temperature data with case](./practical-sql-anthony-debarros/ch13/listing_13-20.sql)|160
+13|[using case in a cte](./practical-sql-anthony-debarros/ch13/listing_13-21.sql)|161
 <hr/>
-<!-- 13|[](./practical-sql-anthony-debarros/ch13/listing_13-0.sql)|0
--->
 
 <!-- #### Ch14: Mining Text to Find Meaningful Data 
 -->
+<!-- chapter|solution|num 
+-->
+<!-- :-:|:-:|:-: 
+-->
+<!-- 14|[](./practical-sql-anthony-debarros/ch14/listing_14-0.sql)|0
+-->
+
+
 <!-- #### Ch15: Analyzing Spatial Data with PostGIS 
 -->
 <!-- #### Ch16: Working with JSON Data 
