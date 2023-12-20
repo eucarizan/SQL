@@ -15,10 +15,11 @@
       - [Ch09: Extracting Information by Grouping and Summarizing](#ch09-extracting-information-by-grouping-and-summarizing)
       - [Ch10: Inspecting and Modifying Data](#ch10-inspecting-and-modifying-data)
       - [Ch11: Statistical Functions in SQL](#ch11-statistical-functions-in-sql)
-      - [Ch12: Working with Dates and Times](#ch12-working-with-dates-and-times) 
+      - [Ch12: Working with Dates and Times](#ch12-working-with-dates-and-times)
       - [Ch13: Advanced Query Techniques](#ch13-advanced-query-techniques)
     - [2: SoftUni](#2-softuni)
     - [3: Hyperskill](#3-hyperskill)
+      - [Projects](#projects)
     - [4: SQL Puzzles and Answers (book)](#4-sql-puzzles-and-answers-book)
 
 ### 1: Practical SQL (book)
@@ -159,8 +160,8 @@ chapter|solution|num
 <hr/>
 
 #### Ch10: Inspecting and Modifying Data
-chapter|solution|num 
-:-:|:-:|:-: 
+chapter|solution|num
+:-:|:-:|:-:
 10|[importing the fsis meat, poultry, and egg inspection directory](./practical-sql-anthony-debarros/ch10/listing_10-01.sql)|91
 10|[finding multiple companies at the same address](./practical-sql-anthony-debarros/ch10/listing_10-02.sql)|92
 10|[grouping and counting states](./practical-sql-anthony-debarros/ch10/listing_10-03.sql)|93
@@ -189,9 +190,9 @@ chapter|solution|num
 10|[swapping table names using alter table](./practical-sql-anthony-debarros/ch10/listing_10-26.sql)|116
 <hr/>
 
-#### Ch11: Statistical Functions in SQL 
-chapter|solution|num 
-:-:|:-:|:-: 
+#### Ch11: Statistical Functions in SQL
+chapter|solution|num
+:-:|:-:|:-:
 11|[creating a 2014-2018 acs 5-year estimates table and importing data](./practical-sql-anthony-debarros/ch11/listing_11-01.sql)|119
 11|[using corr(y, x) to measure the relationship between educaiton and income](./practical-sql-anthony-debarros/ch11/listing_11-02.sql)|120
 11|[using corr(y, x) on additional variables](./practical-sql-anthony-debarros/ch11/listing_11-03.sql)|121
@@ -204,9 +205,9 @@ chapter|solution|num
 11|[creating a rolling average for export data](./practical-sql-anthony-debarros/ch11/listing_11-10.sql)|128
 <hr/>
 
-#### Ch12: Working with Dates and Times 
-chapter|solution|num 
-:-:|:-:|:-: 
+#### Ch12: Working with Dates and Times
+chapter|solution|num
+:-:|:-:|:-:
 12|[extracting the components of a timestamp value](./practical-sql-anthony-debarros/ch12/listing_12-01.sql)|129
 12|[three functions for making datetimes from components](./practical-sql-anthony-debarros/ch12/listing_12-02.sql)|130
 12|[comparing current_timestamp and clock_timestamp() during row insert](./practical-sql-anthony-debarros/ch12/listing_12-03.sql)|131
@@ -223,9 +224,9 @@ chapter|solution|num
 12|[using justify_interval() to better format cumulative trip duration](./practical-sql-anthony-debarros/ch12/listing_12-14.sql)|142
 <hr/>
 
-#### Ch13: Advanced Query Techniques 
-chapter|solution|num 
-:-:|:-:|:-: 
+#### Ch13: Advanced Query Techniques
+chapter|solution|num
+:-:|:-:|:-:
 13|[using a subquery in a where clause](./practical-sql-anthony-debarros/ch13/listing_13-01.sql)|117
 13|[using a subquery in where clause with delete](./practical-sql-anthony-debarros/ch13/listing_13-02.sql)|118
 13|[subquery as a derived table in a from clause](./practical-sql-anthony-debarros/ch13/listing_13-03.sql)|143
@@ -249,32 +250,32 @@ chapter|solution|num
 13|[using case in a cte](./practical-sql-anthony-debarros/ch13/listing_13-21.sql)|161
 <hr/>
 
-<!-- #### Ch14: Mining Text to Find Meaningful Data 
+<!-- #### Ch14: Mining Text to Find Meaningful Data
 -->
-<!-- chapter|solution|num 
+<!-- chapter|solution|num
 -->
-<!-- :-:|:-:|:-: 
+<!-- :-:|:-:|:-:
 -->
 <!-- 14|[](./practical-sql-anthony-debarros/ch14/listing_14-0.sql)|0
 -->
 
 
-<!-- #### Ch15: Analyzing Spatial Data with PostGIS 
+<!-- #### Ch15: Analyzing Spatial Data with PostGIS
 -->
-<!-- #### Ch16: Working with JSON Data 
+<!-- #### Ch16: Working with JSON Data
 -->
-<!-- #### Ch17: Saving Time with Views, Functions, and Triggers 
+<!-- #### Ch17: Saving Time with Views, Functions, and Triggers
 -->
-<!-- #### Ch18: Using PostgreSQL from the Command Line 
+<!-- #### Ch18: Using PostgreSQL from the Command Line
 -->
-<!-- #### Ch19: Maintaining Your Database 
+<!-- #### Ch19: Maintaining Your Database
 -->
-<!-- #### Ch20: Telling Your Data's Story 
+<!-- #### Ch20: Telling Your Data's Story
 -->
 
-<!-- chapter|solution|num 
+<!-- chapter|solution|num
 -->
-<!-- :-:|:-:|:-: 
+<!-- :-:|:-:|:-:
 -->
 
 ### 2: SoftUni
@@ -282,6 +283,20 @@ chapter|solution|num
 
 ### 3: Hyperskill
 - Hyperskill DB exercises
+
+#### Projects
+- [ ] [Electronics Store Customer](./hyperskill/projects/electronics-store-customer/README.md) `⭐4.4` `3hr`
+  - Stages
+    - [x] 1 - Fast PCs
+    - [ ] 2 - Average printer price
+    - [ ] 3 - Total cost of laptops
+    - [ ] 4 - PCs and laptops
+    - [ ] 5 - High-end laptop vs. PC Prices
+    - [ ] 6 - Ranking PCs by RAM
+- [ ] [Databases for Sales](./README.md) `⭐4.2` `7hr`
+- [ ] [Hacker Attack](./README.md) `⭐4.5` `7hr`
+- [ ] [Library Management System](./README.md) `⭐4.0` `6hr`
+- [ ] [School of Wizards and Magic Wars](./README.md) `⭐4.3` `9hr`
 
 ### 4: SQL Puzzles and Answers (book)
 - Joe Celko's book
