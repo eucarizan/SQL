@@ -1,4 +1,4 @@
--- Stage 1: Fast PCs
+-- Stage 1: Find fast PCs in the database
 SELECT pc_code, model, speed, ram
 FROM pc
 WHERE ram >= 16
