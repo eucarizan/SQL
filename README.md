@@ -288,11 +288,11 @@ chapter|solution|num
 - [ ] [Electronics Store Customer](./hyperskill/projects/electronics-store-customer/README.md) `⭐4.4` `3hr`
   - Stages
     - [x] [1 - Fast PCs](./hyperskill/projects/electronics-store-customer/s01.sql)
-    - [x] [2 - Average printer price](./hyperskill/projects/electronics-store/s02.sql)
-    - [ ] [3 - Total cost of laptops](./hyperskill/projects/electronics-store/)
-    - [ ] [4 - PCs and laptops](./hyperskill/projects/electronics-store/)
-    - [ ] [5 - High-end laptop vs. PC Prices](./hyperskill/projects/electronics-store/)
-    - [ ] [6 - Ranking PCs by RAM](./hyperskill/projects/electronics-store/)
+    - [x] [2 - Average printer price](./hyperskill/projects/electronics-store-customer/s02.sql)
+    - [x] [3 - Total cost of laptops](./hyperskill/projects/electronics-store-customer/s03.sql)
+    - [ ] [4 - PCs and laptops](./hyperskill/projects/electronics-store-customer/s04.sql)
+    - [ ] [5 - High-end laptop vs. PC Prices](./hyperskill/projects/electronics-store-customer/s05.sql)
+    - [ ] [6 - Ranking PCs by RAM](./hyperskill/projects/electronics-store-customer/s06.sql)
 - [ ] [Databases for Sales](./README.md) `⭐4.2` `7hr`
 - [ ] [Hacker Attack](./README.md) `⭐4.5` `7hr`
 - [ ] [Library Management System](./README.md) `⭐4.0` `6hr`

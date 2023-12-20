@@ -8,6 +8,14 @@
       - [1.1 Description](#11-description)
       - [1.2 Objectives](#12-objectives)
       - [1.3 Examples](#13-examples)
+    - [2: Average printer price](#2-average-printer-price)
+      - [2.1 Description](#21-description)
+      - [2.2 Objectives](#22-objectives)
+      - [2.3 Examples](#23-examples)
+    - [3: Total cost of laptops](#3-total-cost-of-laptops)
+      - [3.1 Description](#31-description)
+      - [3.2 Objectives](#32-objectives)
+      - [3.3 Examples](#33-examples)
 
 ## Learning outcomes
 Starting with basic SQL operations like `SELECT`, `FROM`, `GROUP BY`, and `WHERE`, we'll explore summation functions, logical operators, and comparison operators and advance into more complex concepts like window functions, subqueries, and join statements. This learning journey will empower you with the skills necessary for proficient information retrieval in SQL.
@@ -60,4 +68,79 @@ _Query template:_
 SELECT pc_code, model, speed, ram ...;
 ```
 
+<hr/>
+
+### 2: Average printer price
+#### 2.1 Description
+Once you have finished your search for PCs, your next objective is to look for a printer that fulfills your requirements. You are specifically looking for inkjet printers that can print in color. Your primary focus is to determine the average price of printers in this category.
+
+#### 2.2 Objectives
+- Identify the average price of printers having the `Inkjet` type and `C` color from the `Printer` table. Round the result up to 2 decimal places.
+
+#### 2.3 Examples
+_Printer table:_
+printer_code|price|color|type
+:-:|:-:|:-:|:-:
+1| 	300| 	C| 	Inkjet
+2| 	400| 	B| 	Inkjet
+3| 	500| 	B| 	Matrix
+4| 	200| 	C| 	Laser
+5| 	400| 	C| 	Inkjet
+
+_The table shows that printers with `printer_code` `1` and `5` have `C` for `color` and `Inkjet` for `type`. After filtering for printers with these specific color and type criteria, here is the updated table:_
+printer_code| 	price| 	color| 	type
+:-:|:-:|:-:|:-:
+1| 	300| 	C| 	Inkjet
+5| 	400| 	B| 	Inkjet
+
+_The average price of these Printers is `350`. When rounded to two decimal places, the final output is:_
+average_price|
+:-:|
+350.00|
+
+Query template:
+```sql
+SELECT ** write your code here ** AS average_price ...;
+```
+<hr/>
+
+### 3: Total cost of laptops
+#### 3.1 Description
+After learning about electronic devices and their specifications, it is time to study their pricing. Your interest lies in understanding the price distribution among laptops from various manufacturers. Your objective is to calculate the total price of each maker's model.
+
+#### 3.2 Objectives
+- Identify the total price of all laptop models produced by each maker. Find the `maker` in the `Product` table and `SUM` of the prices in `Laptop` as `total_price`. Ensure the results are sorted by `total_price` in ascending order. Use `GROUP_BY` and `SUM` functions to solve this
+
+#### 3.3 Examples
+_Laptop Table example_
+laptop_code| 	model| 	price
+:-:|:-:|:-:
+1| 	101| 	500
+2| 	103| 	300
+3| 	101| 	350
+4| 	103| 	250
+5| 	104| 	200
+
+_Product Table Example:_
+maker| 	model
+:-:|:-:
+Apple| 	101
+Apple| 	102
+Samsung| 	103
+Samsung| 	104
+
+_The tables above are interconnected using the `model` number as a key. For instance, when calculating the total price of the `Apple` laptop models, we add the prices of two distinct models (500 + 350) to arrive at a total of 850. It's important to note that only the price associated with model number `101` is included in this calculation since it was retrieved from the `Laptop` table. Final output:_
+maker| 	total_price
+:-:|:-:
+Samsung| 	750
+Apple| 	850
+
+_Keep in mind that the final output should be sorted in ascending order based on the `total_price` value._
+
+Query template:
+```sql
+SELECT maker,
+       ** write your code here ** AS total_price
+       ...;
+```
 <hr/>
