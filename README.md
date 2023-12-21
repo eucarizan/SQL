@@ -290,7 +290,7 @@ chapter|solution|num
     - [x] [1 - Fast PCs](./hyperskill/projects/electronics-store-customer/s01.sql)
     - [x] [2 - Average printer price](./hyperskill/projects/electronics-store-customer/s02.sql)
     - [x] [3 - Total cost of laptops](./hyperskill/projects/electronics-store-customer/s03.sql)
-    - [ ] [4 - PCs and laptops](./hyperskill/projects/electronics-store-customer/s04.sql)
+    - [x] [4 - PCs and laptops](./hyperskill/projects/electronics-store-customer/s04.sql)
     - [ ] [5 - High-end laptop vs. PC Prices](./hyperskill/projects/electronics-store-customer/s05.sql)
     - [ ] [6 - Ranking PCs by RAM](./hyperskill/projects/electronics-store-customer/s06.sql)
 - [ ] [Databases for Sales](./README.md) `⭐4.2` `7hr`

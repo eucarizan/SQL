@@ -16,6 +16,10 @@
       - [3.1 Description](#31-description)
       - [3.2 Objectives](#32-objectives)
       - [3.3 Examples](#33-examples)
+    - [4: PCs and laptops](#4-pcs-and-laptops)
+      - [4.1 Description](#41-description)
+      - [4.2 Objectives](#42-objectives)
+      - [4.3 Examples](#43-examples)
 
 ## Learning outcomes
 Starting with basic SQL operations like `SELECT`, `FROM`, `GROUP BY`, and `WHERE`, we'll explore summation functions, logical operators, and comparison operators and advance into more complex concepts like window functions, subqueries, and join statements. This learning journey will empower you with the skills necessary for proficient information retrieval in SQL.
@@ -143,4 +147,44 @@ SELECT maker,
        ** write your code here ** AS total_price
        ...;
 ```
+<hr/>
+
+### 4: PCs and laptops
+#### 4.1 Description
+Now, as a customer looking to gain a deeper understanding of electronic device brands available on the market, you want to identify makers that produce PCs and Laptops.
+
+#### 4.2 Objectives
+- Identify manufacturers producing PCs and laptops, then count their production quantities. Find the `maker` in the `Product` table, `COUNT` the number of PC-type models it produces as `pc_count`, and `COUNT` the number of laptop-type models it produces as `laptop_count`. Use `GROUP_BY` and `SUM` functions to solve this task. The order of the columns matters.
+
+#### 4.3 Examples
+_Product table example:_
+model| 	maker| 	type
+:-:|:-:|:-:
+1| 	LG| 	PC
+2| 	HP| 	Printer
+3| 	Sony| 	Laptop
+4| 	LG| 	Laptop
+5| 	Sony| 	Laptop
+6| 	HP| 	PC
+
+_The table counting the models which are laptop-type and PC-type by makers:_
+maker| 	pc_count| 	laptop_count
+:-:|:-:|:-:
+LG| 	1| 	1
+HP| 	1| 	0
+Sony| 	0| 	2
+
+_From the above table, only LG produces both PC and Laptop type models:_
+maker| 	pc_count| 	laptop_count
+:-:|:-:|:-:
+LG| 	1| 	1
+
+Query template:
+```sql
+SELECT maker,
+       ** write your code here ** AS pc_count
+       ** write your code here ** AS laptop_count
+...;
+```
+
 <hr/>
