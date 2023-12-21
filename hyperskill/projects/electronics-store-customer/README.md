@@ -24,7 +24,11 @@
       - [5.1 Description](#51-description)
       - [5.2 Objectives](#52-objectives)
       - [5.3 Examples](#53-examples)
-
+    - [6: Ranking PCs by RAM](#6-ranking-pcs-by-ram)
+      - [6.1 Description](#61-description)
+      - [6.2 Objectives](#62-objectives)
+      - [6.3 Examples](#63-examples)
+      
 ## Learning outcomes
 Starting with basic SQL operations like `SELECT`, `FROM`, `GROUP BY`, and `WHERE`, we'll explore summation functions, logical operators, and comparison operators and advance into more complex concepts like window functions, subqueries, and join statements. This learning journey will empower you with the skills necessary for proficient information retrieval in SQL.
 
@@ -236,3 +240,34 @@ SELECT model, maker, price
 ```
 
 <hr/>
+
+### 6: Ranking PCs by RAM
+#### 6.1 Description
+It is important to consider both pricing and RAM capacity when comparing PCs. Creating a ranking based on price relative to RAM offered can help identify second-ranked PCs with specific RAM values at a lower cost.
+
+#### 6.2 Objectives
+- Identify the second most expensive PCs based on the RAM capacity. Find the `pc_code`, `model`, `speed`, `ram`, `hd`, `cd`, and `price` from the `PC` table. Use `PARTITION BY` to solve this challenge. The order of the columns matters.
+
+#### 6.3 Examples
+_PC table example:_
+pc_code| 	model| 	speed| 	ram| 	hd| 	cd| 	price
+:-:|:-:|:-:|:-:|:-:|:-:|:-:
+1| 	101| 	2200| 	8| 	500| 	DVD| 	1300
+2| 	102| 	2500| 	16| 	1000| 	None| 	2000
+3| 	101| 	2300| 	8| 	1000| 	Blu-ray| 	1800
+4| 	103| 	2000| 	16| 	200| 	DVD| 	1600
+5| 	104| 	2100| 	8| 	100| 	None| 	1100
+
+_From the above table, it can be observed that PCs under `pc_code` `1` and `4` are the second most expensive in the category of 8 and 16 `ram` respectively. The output of the table after identifying PCs following the most expensive in terms of `ram`:_
+pc_code| 	model| 	speed| 	ram| 	hd| 	cd| 	price
+:-:|:-:|:-:|:-:|:-:|:-:|:-:
+1| 	101| 	2200| 	8| 	500| 	DVD| 	1300
+4| 	103| 	2000| 	16| 	200| 	DVD| 	1600
+
+_Query template:_
+```sql
+SELECT pc_code, model, speed, ram, hd, cd, price ...;
+```
+<hr/>
+
+[<<](../../../README.md)

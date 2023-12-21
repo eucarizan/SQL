@@ -283,18 +283,25 @@ chapter|solution|num
 
 ### 3: Hyperskill
 - Hyperskill DB exercises
-
 #### Projects
-- [ ] [Electronics Store Customer](./hyperskill/projects/electronics-store-customer/README.md) `⭐4.4` `3hr`
+- [x] [Electronics Store Customer](./hyperskill/projects/electronics-store-customer/README.md) `⭐4.4` `3hr`
   - Stages
     - [x] [1 - Fast PCs](./hyperskill/projects/electronics-store-customer/s01.sql)
     - [x] [2 - Average printer price](./hyperskill/projects/electronics-store-customer/s02.sql)
     - [x] [3 - Total cost of laptops](./hyperskill/projects/electronics-store-customer/s03.sql)
     - [x] [4 - PCs and laptops](./hyperskill/projects/electronics-store-customer/s04.sql)
     - [x] [5 - High-end laptop vs. PC Prices](./hyperskill/projects/electronics-store-customer/s05.sql)
-    - [ ] [6 - Ranking PCs by RAM](./hyperskill/projects/electronics-store-customer/s06.sql)
+    - [x] [6 - Ranking PCs by RAM](./hyperskill/projects/electronics-store-customer/s06.sql)
 - [ ] [Databases for Sales](./README.md) `⭐4.2` `7hr`
-- [ ] [Hacker Attack](./README.md) `⭐4.5` `7hr`
+- [ ] [Hacker Attack](./hyperskill/projects/hacker-attack/README.md) `⭐4.5` `7hr`
+  - Stages
+    - [ ] [1 - School members](./hyperskill/projects/hacker-attack/s01.sql)
+    - [ ] [2 - Who are you?](./hyperskill/projects/hacker-attack/s02.sql)
+    - [ ] [3 - You ar a student](./hyperskill/projects/hacker-attack/s03.sql)
+    - [ ] [4 - Plenty of files](./hyperskill/projects/hacker-attack/s04.sql)
+    - [ ] [5 - I know your score](./hyperskill/projects/hacker-attack/s05.sql)
+    - [ ] [6 - Grade codes](./hyperskill/projects/hacker-attack/s06.sql)
+    - [ ] [7 - Land ho!](./hyperskill/projects/hacker-attack/s07.sql)
 - [ ] [Library Management System](./README.md) `⭐4.0` `6hr`
 - [ ] [School of Wizards and Magic Wars](./README.md) `⭐4.3` `9hr`
 
