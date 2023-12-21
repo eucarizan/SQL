@@ -295,7 +295,7 @@ chapter|solution|num
 - [ ] [Databases for Sales](./README.md) `⭐4.2` `7hr`
 - [ ] [Hacker Attack](./hyperskill/projects/hacker-attack/README.md) `⭐4.5` `7hr`
   - Stages
-    - [ ] [1 - School members](./hyperskill/projects/hacker-attack/s01.sql)
+    - [x] [1 - School members](./hyperskill/projects/hacker-attack/s01.sql)
     - [ ] [2 - Who are you?](./hyperskill/projects/hacker-attack/s02.sql)
     - [ ] [3 - You ar a student](./hyperskill/projects/hacker-attack/s03.sql)
     - [ ] [4 - Plenty of files](./hyperskill/projects/hacker-attack/s04.sql)
