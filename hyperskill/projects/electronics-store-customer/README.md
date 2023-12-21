@@ -20,6 +20,10 @@
       - [4.1 Description](#41-description)
       - [4.2 Objectives](#42-objectives)
       - [4.3 Examples](#43-examples)
+    - [5: High-end laptop vs. PC Prices](#5-high-end-laptop-vs-pc-prices)
+      - [5.1 Description](#51-description)
+      - [5.2 Objectives](#52-objectives)
+      - [5.3 Examples](#53-examples)
 
 ## Learning outcomes
 Starting with basic SQL operations like `SELECT`, `FROM`, `GROUP BY`, and `WHERE`, we'll explore summation functions, logical operators, and comparison operators and advance into more complex concepts like window functions, subqueries, and join statements. This learning journey will empower you with the skills necessary for proficient information retrieval in SQL.
@@ -184,6 +188,50 @@ Query template:
 SELECT maker,
        ** write your code here ** AS pc_count
        ** write your code here ** AS laptop_count
+...;
+```
+
+<hr/>
+
+### 5: High-end laptop vs. PC Prices
+#### 5.1 Description
+As a customer, you've heard that laptops tend to be more expensive than PCs. To verify this claim, you want to identify specific laptop models priced higher than the most costly PCs currently on the market. Also, to better understand the laptop price trends, compare average laptop and PC prices with those that cost more than the most expensive PC.
+
+#### 5.2 Objectives
+- Identify the laptops priced higher than any PC, including model, maker (`Product` table), and price. Also, compute the differences: laptop vs. most expensive PC as `price_difference_max_pc` and laptop vs. average laptop price as `price_difference_avg_laptop`. The order of the columns matters.
+
+#### 5.3 Examples
+_PC table example:_
+pc_code| 	model| 	speed| 	ram| 	price
+:-:|:-:|:-:|:-:|:-:
+1| 	101| 	2200| 	8| 	300
+2| 	102| 	2000| 	16| 	450
+3| 	101| 	2300| 	8| 	330
+4| 	103| 	2000| 	8| 	280
+5| 	104| 	2100| 	8| 	290
+
+_The highest price of a PC from the table above is 450._
+
+_Laptop table example:_
+laptop_code| 	model| 	maker| 	price
+:-:|:-:|:-:|:-:
+1| 	101| 	LG| 	400
+2| 	102| 	HP| 	460
+3| 	101| 	LG| 	350
+4| 	103| 	Apple| 	500
+5| 	104| 	Lenovo| 	390
+
+_The table reveals that laptops with codes `2` and `4` are priced higher than the highest-priced PC (450). The average laptop price is calculated as (400 + 460 + 500 + 350 + 390) / 5 = 420. Final output:_
+model| 	maker| 	price| 	price_difference_max_pc| 	price_difference_avg_laptop
+:-:|:-:|:-:|:-:|:-:
+102| 	HP| 	460| 	10| 	40
+102| 	Apple| 	500| 	50| 	80
+
+Query template:
+```sql
+SELECT model, maker, price
+       **write your code here** AS price_difference_max_pc
+       **write your code here** AS price_difference_avg_laptop
 ...;
 ```
 
