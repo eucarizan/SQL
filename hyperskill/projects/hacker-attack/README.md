@@ -16,6 +16,10 @@
       - [3.1 Description](#31-description)
       - [3.2 Objectives](#32-objectives)
       - [3.3 Example](#33-example)
+    - [4: Plenty of files](#4-plenty-of-files)
+      - [4.1 Description](#41-description)
+      - [4.2 Objectives](#42-objectives)
+      - [4.3 Example](#43-example)
 
 ## Learning outcomes
 Get familiar with SQL commands, and work with _csv_ files. Import data from files, learn how to merge data from different tables, and study how to use various SQL commands.
@@ -177,5 +181,83 @@ AF-906227
 ```
 
 <hr/>
+
+### 4: Plenty of files
+#### 4.1 Description
+Your friends created three more csv files for you. These files contain the `person_id` of the students and the `annual score`. But, unfortunately, your friends didn't tell you the `grade_code` of the results. You need to find it out in the following steps.
+
+Now, for this step, first create three temporary tables with the csv files. And then, with the union command, merge them all together.
+
+#### 4.2 Objectives
+Let's break the task into several steps:
+
+- Keep table creation statements from the previous steps;
+- Create three tables. With the name `score1`, `score2`, and `score3`;
+- Change mode to csv;
+- Import data from csv files to the tables. Files names are `score1.csv`, `score2.csv`, and `score3.csv`;
+- Change mode to `column`;
+- Select all the data from the score tables and merge them together with the `UNION ALL` command;
+
+The tables will have two columns:
+```
+"person_id" VARCHAR(9),
+"score" INTEGER
+```
+
+#### 4.3 Example
+The greater-than symbol followed by a space (`> `) represents the user input. Note that it's not part of the input.
+
+**Example 1:**
+
+*Output:*
+```
+person_id  score
+---------  -----
+BH-465461  86
+DG-884779  78
+CB-137658  93
+DC-711801  56
+HE-489451  65
+CF-172009  79
+DD-100740  85
+BH-465461  88
+DG-884779  83
+CB-137658  89
+DC-711801  67
+HE-489451  71
+CF-172009  83
+DD-100740  81
+CA-115055  83
+BB-744852  82
+FB-862964  98
+CF-662375  79
+AE-640140  96
+EH-816864  87
+FH-270930  91
+BH-465461  86
+DG-884779  87
+CB-137658  83
+DC-711801  75
+HE-489451  79
+CF-172009  79
+DD-100740  85
+CA-115055  87
+BB-744852  88
+FB-862964  99
+CF-662375  77
+AE-640140  97
+EH-816864  88
+FH-270930  95
+CF-256627  75
+GH-845670  87
+FE-915587  86
+HH-077706  93
+HH-849834  88
+BE-538433  96
+AF-992719  99
+```
+
+<hr/>
+
 
 [<<](../../../README.md)
