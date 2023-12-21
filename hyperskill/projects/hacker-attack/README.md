@@ -12,6 +12,10 @@
       - [2.1 Description](#21-description)
       - [2.1 Objectives](#21-objectives)
       - [2.3 Example](#23-example)
+    - [3: You are a student](#3-you-are-a-student)
+      - [3.1 Description](#31-description)
+      - [3.2 Objectives](#32-objectives)
+      - [3.3 Example](#33-example)
 
 ## Learning outcomes
 Get familiar with SQL commands, and work with _csv_ files. Import data from files, learn how to merge data from different tables, and study how to use various SQL commands.
@@ -135,6 +139,43 @@ COUNT(person_id)
 ----------------
 90
 ```
+<hr/>
+
+### 3: You are a student
+#### 3.1 Description
+In the last stage, you listed the students. Now create the `student` table and fill it with data.
+
+#### 3.2 Objectives
+Let's break the task into several steps:
+
+- Keep table creation statements from the previous steps;
+- Create a `student` table;
+- Insert the correct data into it;
+- Select all columns from `student` table. Order the results by `person_id` ascending. Limit results to `5`;
+
+The student table will have two columns.
+```
+"person_id" VARCHAR(9) PRIMARY KEY,
+"grade_code" TEXT
+```
+
+> `VALUES` is not needed when using `SELECT`.
+
+#### 3.3 Example
+The greater-than symbol followed by a space (`> `) represents the user input. Note that it's not part of the input.
+
+**Example 1:**
+*Output:*
+```
+person_id  grade_code
+---------  ----------
+AA-990456
+AC-744667
+AE-227862
+AE-640140
+AF-906227
+```
+
 <hr/>
 
 [<<](../../../README.md)
