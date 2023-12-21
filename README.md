@@ -299,7 +299,7 @@ listing|solution|num
     - [x] [2 - Who are you?](./hyperskill/projects/hacker-attack/s02.sql)
     - [x] [3 - You are a student](./hyperskill/projects/hacker-attack/s03.sql)
     - [x] [4 - Plenty of files](./hyperskill/projects/hacker-attack/s04.sql)
-    - [ ] [5 - I know your score](./hyperskill/projects/hacker-attack/s05.sql)
+    - [x] [5 - I know your score](./hyperskill/projects/hacker-attack/s05.sql)
     - [ ] [6 - Grade codes](./hyperskill/projects/hacker-attack/s06.sql)
     - [ ] [7 - Land ho!](./hyperskill/projects/hacker-attack/s07.sql)
 - [ ] [Library Management System](./README.md) `⭐4.0` `6hr`

@@ -20,6 +20,10 @@
       - [4.1 Description](#41-description)
       - [4.2 Objectives](#42-objectives)
       - [4.3 Example](#43-example)
+    - [5: I know your score](#5-i-know-your-score)
+      - [5.1 Description](#51-description)
+      - [5.2 Objectives](#52-objectives)
+      - [5.3 Example](#53-example)
 
 ## Learning outcomes
 Get familiar with SQL commands, and work with _csv_ files. Import data from files, learn how to merge data from different tables, and study how to use various SQL commands.
@@ -259,5 +263,50 @@ AF-992719  99
 
 <hr/>
 
+### 5: I know your score
+#### 5.1 Description
+You've learned how to merge the scores. Now, create the `score` table. Insert the scores into the `score` table. When everything is done, delete `score1`, `score2`, and `score3` tables with the `DROP` command.
+
+#### 5.2 Objectives
+
+Let's break the task into several steps:
+
+- Keep table creation statements from the previous steps;
+- Create the `score` table;
+- Insert data from the `score1`, `score2`, and `score3` tables into the `score` table;
+- Use the DROP command and delete `score1`, `score2`, and `score3` tables;
+- Select all columns from the `score` table. Order the results by `person_id`. Limit results to `5`;
+- Select `person_id`, `count(score)` from the `score` table. Group by `person_id`. Having `count(score)` value `3` and order the results by `person_id`. Limit results to `5`;
+
+The score tables will have two columns.
+```
+"person_id" VARCHAR(9),
+"score" INTEGER
+```
+
+#### 5.3 Example
+The greater-than symbol followed by a space (`> `) represents the user input. Note that it's not part of the input.
+
+**Example 1:**
+*Output:*
+```
+person_id  score
+---------  -----
+AE-640140  96
+AE-640140  97
+AF-992719  99
+BB-744852  82
+BB-744852  88
+
+person_id  count(score)
+---------  ------------
+BH-465461  3
+CB-137658  3
+CF-172009  3
+DC-711801  3
+DD-100740  3
+```
+
+<hr/>
 
 [<<](../../../README.md)
