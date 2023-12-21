@@ -8,6 +8,10 @@
       - [1.1 Description](#11-description)
       - [1.2 Objectives](#12-objectives)
       - [1.3 Example](#13-example)
+    - [2: Who are you?](#2-who-are-you)
+      - [2.1 Description](#21-description)
+      - [2.1 Objectives](#21-objectives)
+      - [2.3 Example](#23-example)
 
 ## Learning outcomes
 Get familiar with SQL commands, and work with _csv_ files. Import data from files, learn how to merge data from different tables, and study how to use various SQL commands.
@@ -81,6 +85,56 @@ AE-640140  Steve Mckinney
 AF-906227  Mckenzie Bryant
 ```
 
+<hr/>
+
+### 2: Who are you?
+#### 2.1 Description
+Your friend created another file. Now you know who the teachers are. First, create the `teacher` table from *teacher.csv*. Then compare the `teacher` table with the `person` table and find out who the students are.
+
+#### 2.1 Objectives
+Let's break the task into several steps:
+- Keep table creation statements from the previous step;
+- Create the `teacher` table;
+- Change the mode to `csv`;
+- Import data from *teacher.csv* to the teacher `table`;
+- Change the mode to `column`;
+- Select every record from the person table that is missing in the `teacher` table. This will give you the student's list. Sort the results by `full_name` in ascending order. Limit results to `5`;
+- Use a `select` statement to find out the number of the students;
+- Count all entries from combined table.
+
+The `teacher` table will have two columns:
+```
+"person_id" VARCHAR(9) PRIMARY KEY,
+"class_code" TEXT
+```
+
+You can use a subquery while getting results from different tables. The code snippet below is an example of how you can do it:
+```
+SELECT id_field, name_field FROM first_table
+WHERE
+id_field not in
+(SELECT id_field FROM second_table) ORDER BY name_field LIMIT 5;
+```
+
+#### 2.3 Example
+The greater-than symbol followed by a space (`> `) represents the user input. Note that it's not part of the input.
+
+**Example 1:**
+
+*Output:*
+```
+person_id  full_name
+---------  --------------
+DC-711801  Adrian Anthony
+BA-441588  Adrian Rowe
+EF-444609  Andrea Hubbard
+CG-998149  Andrew Wilson
+FE-915587  Andrew Wood
+
+COUNT(person_id)
+----------------
+90
+```
 <hr/>
 
 [<<](../../../README.md)
