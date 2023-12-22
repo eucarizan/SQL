@@ -24,6 +24,10 @@
       - [5.1 Description](#51-description)
       - [5.2 Objectives](#52-objectives)
       - [5.3 Example](#53-example)
+    - [6: Grade codes](#6-grade-codes)
+      - [6.1 Description](#61-description)
+      - [6.2 Objectives](#62-objectives)
+      - [6.3 Example](#63-example)
 
 ## Learning outcomes
 Get familiar with SQL commands, and work with _csv_ files. Import data from files, learn how to merge data from different tables, and study how to use various SQL commands.
@@ -305,6 +309,48 @@ CB-137658  3
 CF-172009  3
 DC-711801  3
 DD-100740  3
+```
+
+<hr/>
+
+### 6: Grade codes
+#### 6.1 Description
+You have the `score` table that contains the student's annual scores. But you don't know the students `grade_code`. First-year students do not have an annual score. Sophomores have one score and so on. With this information, fill in `grade_code` in the `student` table.
+
+#### 6.2 Objectives
+Let's break the task into several steps:
+
+- Keep table creation statements from the previous steps;
+- Update `grade_code` in the `student` table;
+- Select all records from the `student` table, order by `person_id`, and limit by `5`;
+
+You can use the following statement as an example to update the `student` table.
+```
+update student
+set grade_code = 'put the grade code here'
+where student.person_id in
+(use the query from the previous step);
+```
+
+**Hint**
+- If there is no `score` in the `score` table, the grade code is `GD-09`;
+- If the score count is `1` in the `score` table, the grade code is `GD-10`;
+- If the score count is `2` in the `score` table, the grade code is `GD-11`;
+- If the score count is `3` in the `score` table, the grade code will be `GD-12`.
+
+#### 6.3 Example
+The greater-than symbol followed by a space (`> `) represents the user input. Note that it's not part of the input.
+
+**Example 1:**
+*Output:*
+```
+person_id  grade_code
+---------  ----------
+AA-990456  GD-09
+AC-744667  GD-09
+AE-227862  GD-09
+AE-640140  GD-11
+AF-906227  GD-09
 ```
 
 <hr/>
