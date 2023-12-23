@@ -256,6 +256,8 @@ listing|solution|num
 14|[using regular expressions in a where clause](./practical-sql-anthony-debarros/ch14/listing_14-01.sql)|162
 14|[regular expression functions to replace and split text](./practical-sql-anthony-debarros/ch14/listing_14-02.sql)|163
 14|[finding an array length](./practical-sql-anthony-debarros/ch14/listing_14-03.sql)|164
+14|[creating and loading the crime_reports table](./practical-sql-anthony-debarros/ch14/listing_14-05.sql)|165
+14|[using regexp_match() to find the first date](./practical-sql-anthony-debarros/ch14/listing_14-06.sql)|166
 <hr/>
 <!-- 14|[](./practical-sql-anthony-debarros/ch14/listing_14-0.sql)|0
 -->
