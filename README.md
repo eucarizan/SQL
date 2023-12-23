@@ -250,12 +250,11 @@ listing|solution|num
 13-21|[using case in a cte](./practical-sql-anthony-debarros/ch13/listing_13-21.sql)|161
 <hr/>
 
-<!-- #### Ch14: Mining Text to Find Meaningful Data
--->
-<!-- listing|solution|num
--->
-<!-- :-:|:-:|:-:
--->
+#### Ch14: Mining Text to Find Meaningful Data
+listing|solution|num
+:-:|:-:|:-:
+14|[using regular expressions in a where clause](./practical-sql-anthony-debarros/ch14/listing_14-01.sql)|162
+<hr/>
 <!-- 14|[](./practical-sql-anthony-debarros/ch14/listing_14-0.sql)|0
 -->
 
