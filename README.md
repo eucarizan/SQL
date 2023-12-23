@@ -254,6 +254,7 @@ listing|solution|num
 listing|solution|num
 :-:|:-:|:-:
 14|[using regular expressions in a where clause](./practical-sql-anthony-debarros/ch14/listing_14-01.sql)|162
+14|[regular expression functions to replace and split text](./practical-sql-anthony-debarros/ch14/listing_14-02.sql)|163
 <hr/>
 <!-- 14|[](./practical-sql-anthony-debarros/ch14/listing_14-0.sql)|0
 -->
