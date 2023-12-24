@@ -17,6 +17,7 @@
       - [Ch11: Statistical Functions in SQL](#ch11-statistical-functions-in-sql)
       - [Ch12: Working with Dates and Times](#ch12-working-with-dates-and-times)
       - [Ch13: Advanced Query Techniques](#ch13-advanced-query-techniques)
+      - [Ch14: Mining Text to Find Meaningful Data](#ch14-mining-text-to-find-meaningful-data)
     - [2: SoftUni](#2-softuni)
     - [3: Hyperskill](#3-hyperskill)
       - [Projects](#projects)
@@ -260,6 +261,7 @@ listing|solution|num
 14|[using regexp_match() to find the first date](./practical-sql-anthony-debarros/ch14/listing_14-06.sql)|166
 14|[using the regexp_matches() function with the 'g' flag](./practical-sql-anthony-debarros/ch14/listing_14-07.sql)|167
 <hr/>
+<!-- 14|[](./practical-sql-anthony-debarros/ch14/listing_14-0.sql)|0
 <!-- 14|[](./practical-sql-anthony-debarros/ch14/listing_14-0.sql)|0
 -->
 
