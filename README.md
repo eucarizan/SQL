@@ -263,6 +263,7 @@ listing|solution|num
 14|[using regexp_match() to find the second date](./practical-sql-anthony-debarros/ch14/listing_14-08.sql)|168
 14|[using a capture group to return only the date](./practical-sql-anthony-debarros/ch14/listing_14-09.sql)|169
 14|[matching case numbe, date, crime type, and city](./practical-sql-anthony-debarros/ch14/listing_14-10.sql)|170
+14|[retrieving a value from within an array](./practical-sql-anthony-debarros/ch14/listing_14-11.sql)|171
 <hr/>
 <!-- 14|[](./practical-sql-anthony-debarros/ch14/listing_14-0.sql)|0
 -->
