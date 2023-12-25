@@ -260,8 +260,8 @@ listing|solution|num
 14|[creating and loading the crime_reports table](./practical-sql-anthony-debarros/ch14/listing_14-05.sql)|165
 14|[using regexp_match() to find the first date](./practical-sql-anthony-debarros/ch14/listing_14-06.sql)|166
 14|[using the regexp_matches() function with the 'g' flag](./practical-sql-anthony-debarros/ch14/listing_14-07.sql)|167
+14|[using regexp_match() to find the second date](./practical-sql-anthony-debarros/ch14/listing_14-088888888.sql)|168
 <hr/>
-<!-- 14|[](./practical-sql-anthony-debarros/ch14/listing_14-0.sql)|0
 <!-- 14|[](./practical-sql-anthony-debarros/ch14/listing_14-0.sql)|0
 -->
 
