@@ -269,6 +269,7 @@ listing|solution|num
 14|[updating all crime_reports columns](./practical-sql-anthony-debarros/ch14/listing_14-13.sql)|173
 14|[viewing selected crime data](./practical-sql-anthony-debarros/ch14/listing_14-14.sql)|174
 14|[converting text to tsvector data](./practical-sql-anthony-debarros/ch14/listing_14-15.sql)|175
+14|[converting search terms to tsquery data](./practical-sql-anthony-debarros/ch14/listing_14-16.sql)|176
 <hr/>
 <!-- 14|[](./practical-sql-anthony-debarros/ch14/listing_14-0.sql)|0
 -->
