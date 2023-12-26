@@ -267,6 +267,7 @@ listing|solution|num
 14|[updating the crime_reports date_1 column](./practical-sql-anthony-debarros/ch14/listing_14-12.sql)|172
 <hr/>
 14|[updating all crime_reports columns](./practical-sql-anthony-debarros/ch14/listing_14-13.sql)|173
+14|[viewing selected crime data](./practical-sql-anthony-debarros/ch14/listing_14-14.sql)|174
 <hr/>
 <!-- 14|[](./practical-sql-anthony-debarros/ch14/listing_14-0.sql)|0
 -->
