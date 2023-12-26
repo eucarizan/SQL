@@ -270,6 +270,7 @@ listing|solution|num
 14|[viewing selected crime data](./practical-sql-anthony-debarros/ch14/listing_14-14.sql)|174
 14|[converting text to tsvector data](./practical-sql-anthony-debarros/ch14/listing_14-15.sql)|175
 14|[converting search terms to tsquery data](./practical-sql-anthony-debarros/ch14/listing_14-16.sql)|176
+14|[querying a tsvector type with a tsquery](./practical-sql-anthony-debarros/ch14/listing_14-17.sql)|177
 <hr/>
 <!-- 14|[](./practical-sql-anthony-debarros/ch14/listing_14-0.sql)|0
 -->
