@@ -271,7 +271,8 @@ listing|solution|num
 14|[converting text to tsvector data](./practical-sql-anthony-debarros/ch14/listing_14-15.sql)|175
 14|[converting search terms to tsquery data](./practical-sql-anthony-debarros/ch14/listing_14-16.sql)|176
 14|[querying a tsvector type with a tsquery](./practical-sql-anthony-debarros/ch14/listing_14-17.sql)|177
-14|[creating and filling the president_speeches table](./practical-sql-anthony-debarros/ch14/listing_14-0.sql)|0
+14|[creating and filling the president_speeches table](./practical-sql-anthony-debarros/ch14/listing_14-18.sql)|178
+14|[converting speeches to tsvector in the search_speech_text column](./practical-sql-anthony-debarros/ch14/listing_14-19.sql)|179
 <hr/>
 <!-- 14|[](./practical-sql-anthony-debarros/ch14/listing_14-0.sql)|0
 -->
