@@ -275,6 +275,7 @@ listing|solution|num
 14|[converting speeches to tsvector in the search_speech_text column](./practical-sql-anthony-debarros/ch14/listing_14-19.sql)|179
 14|[creating a gin index for text search](./practical-sql-anthony-debarros/ch14/listing_14-20.sql)|180
 14|[finding speeches containing the word "vietnam"](./practical-sql-anthony-debarros/ch14/listing_14-21.sql)|181
+14|[displaying search results with ts_headline()](./practical-sql-anthony-debarros/ch14/listing_14-22.sql)|182
 <hr/>
 <!-- 14|[](./practical-sql-anthony-debarros/ch14/listing_14-0.sql)|0
 -->
