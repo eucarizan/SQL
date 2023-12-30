@@ -279,6 +279,7 @@ listing|solution|num
 14|[finding speeches wth the word 'transportation' but not 'roads'](./practical-sql-anthony-debarros/ch14/listing_14-23.sql)|183
 14|[finding speeches where 'defense' follows 'military'](./practical-sql-anthony-debarros/ch14/listing_14-24.sql)|184
 14|[scoring relevance with ts_rank()](./practical-sql-anthony-debarros/ch14/listing_14-25.sql)|185
+14|[normalizing ts_rank() by speech length](./practical-sql-anthony-debarros/ch14/listing_14-26.sql)|186
 <hr/>
 <!-- 14|[](./practical-sql-anthony-debarros/ch14/listing_14-0.sql)|0
 -->
