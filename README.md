@@ -276,7 +276,8 @@ listing|solution|num
 14|[creating a gin index for text search](./practical-sql-anthony-debarros/ch14/listing_14-20.sql)|180
 14|[finding speeches containing the word "vietnam"](./practical-sql-anthony-debarros/ch14/listing_14-21.sql)|181
 14|[displaying search results with ts_headline()](./practical-sql-anthony-debarros/ch14/listing_14-22.sql)|182
-14|[finding speeches wth the word 'transportation' but not 'roads'](./practical-sql-anthony-debarros/ch14/listing_14-0.sql)|0
+14|[finding speeches wth the word 'transportation' but not 'roads'](./practical-sql-anthony-debarros/ch14/listing_14-23.sql)|183
+14|[finding speeches where 'defense' follows 'military'](./practical-sql-anthony-debarros/ch14/listing_14-24.sql)|184
 <hr/>
 <!-- 14|[](./practical-sql-anthony-debarros/ch14/listing_14-0.sql)|0
 -->
