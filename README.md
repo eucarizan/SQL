@@ -281,7 +281,6 @@ listing|solution|num
 14|[scoring relevance with ts_rank()](./practical-sql-anthony-debarros/ch14/listing_14-25.sql)|185
 14|[normalizing ts_rank() by speech length](./practical-sql-anthony-debarros/ch14/listing_14-26.sql)|186
 <hr/>
--->
 
 #### Ch15: Analyzing Spatial Data with PostGIS
 listing|solution|num
@@ -289,6 +288,7 @@ listing|solution|num
 15|[loading the postgis extension](./practical-sql-anthony-debarros/ch15/listing_15-1.sql)|187
 15|[retrieving the well-known text for srid 4326](./practical-sql-anthony-debarros/ch15/listing_15-02.sql)|188
 15|[using st_geomfromtext() to create spatial objects](./practical-sql-anthony-debarros/ch15/listing_15-03.sql)|189
+15|[using st_geogfromtext() to create spatial objects](./practical-sql-anthony-debarros/ch15/listing_15-04.sql)|190
 <hr/>
 <!-- 15|[](./practical-sql-anthony-debarros/ch15/listing_15-0.sql)|0
 -->
