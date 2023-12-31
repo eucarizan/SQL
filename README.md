@@ -287,7 +287,7 @@ listing|solution|num
 listing|solution|num
 :-:|:-:|:-:
 15|[loading the postgis extension](./practical-sql-anthony-debarros/ch15/listing_15-1.sql)|187
-<!--15|[retrieving the well-known text for srid 4326](./practical-sql-anthony-debarros/ch15/listing_15-02.sql)|188
+15|[retrieving the well-known text for srid 4326](./practical-sql-anthony-debarros/ch15/listing_15-02.sql)|188
 <hr/>
 <!-- 15|[](./practical-sql-anthony-debarros/ch15/listing_15-0.sql)|0
 -->
