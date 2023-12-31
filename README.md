@@ -281,12 +281,17 @@ listing|solution|num
 14|[scoring relevance with ts_rank()](./practical-sql-anthony-debarros/ch14/listing_14-25.sql)|185
 14|[normalizing ts_rank() by speech length](./practical-sql-anthony-debarros/ch14/listing_14-26.sql)|186
 <hr/>
-<!-- 14|[](./practical-sql-anthony-debarros/ch14/listing_14-0.sql)|0
 -->
 
-
-<!-- #### Ch15: Analyzing Spatial Data with PostGIS
+#### Ch15: Analyzing Spatial Data with PostGIS
+listing|solution|num
+:-:|:-:|:-:
+15|[loading the postgis extension](./practical-sql-anthony-debarros/ch15/listing_15-1.sql)|187
+<!--15|[retrieving the well-known text for srid 4326](./practical-sql-anthony-debarros/ch15/listing_15-02.sql)|188
+<hr/>
+<!-- 15|[](./practical-sql-anthony-debarros/ch15/listing_15-0.sql)|0
 -->
+
 <!-- #### Ch16: Working with JSON Data
 -->
 <!-- #### Ch17: Saving Time with Views, Functions, and Triggers
