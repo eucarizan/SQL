@@ -18,6 +18,7 @@
       - [Ch12: Working with Dates and Times](#ch12-working-with-dates-and-times)
       - [Ch13: Advanced Query Techniques](#ch13-advanced-query-techniques)
       - [Ch14: Mining Text to Find Meaningful Data](#ch14-mining-text-to-find-meaningful-data)
+      - [Ch15: Analyzing Spatial Data with PostGIS](#ch15-analyzing-spatial-data-with-postgis)
     - [2: SoftUni](#2-softuni)
     - [3: Hyperskill](#3-hyperskill)
       - [Projects](#projects)
@@ -265,7 +266,6 @@ listing|solution|num
 14|[matching case number, date, crime type, and city](./practical-sql-anthony-debarros/ch14/listing_14-10.sql)|170
 14|[retrieving a value from within an array](./practical-sql-anthony-debarros/ch14/listing_14-11.sql)|171
 14|[updating the crime_reports date_1 column](./practical-sql-anthony-debarros/ch14/listing_14-12.sql)|172
-<hr/>
 14|[updating all crime_reports columns](./practical-sql-anthony-debarros/ch14/listing_14-13.sql)|173
 14|[viewing selected crime data](./practical-sql-anthony-debarros/ch14/listing_14-14.sql)|174
 14|[converting text to tsvector data](./practical-sql-anthony-debarros/ch14/listing_14-15.sql)|175
@@ -288,6 +288,7 @@ listing|solution|num
 :-:|:-:|:-:
 15|[loading the postgis extension](./practical-sql-anthony-debarros/ch15/listing_15-1.sql)|187
 15|[retrieving the well-known text for srid 4326](./practical-sql-anthony-debarros/ch15/listing_15-02.sql)|188
+15|[using st_geomfromtext() to create spatial objects](./practical-sql-anthony-debarros/ch15/listing_15-03.sql)|189
 <hr/>
 <!-- 15|[](./practical-sql-anthony-debarros/ch15/listing_15-0.sql)|0
 -->
