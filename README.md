@@ -289,6 +289,7 @@ listing|solution|num
 15|[retrieving the well-known text for srid 4326](./practical-sql-anthony-debarros/ch15/listing_15-02.sql)|188
 15|[using st_geomfromtext() to create spatial objects](./practical-sql-anthony-debarros/ch15/listing_15-03.sql)|189
 15|[using st_geogfromtext() to create spatial objects](./practical-sql-anthony-debarros/ch15/listing_15-04.sql)|190
+15|[functions specific to making points](./practical-sql-anthony-debarros/ch15/listing_15-05.sql)|191
 <hr/>
 <!-- 15|[](./practical-sql-anthony-debarros/ch15/listing_15-0.sql)|0
 -->
