@@ -291,6 +291,7 @@ listing|solution|num
 15|[using st_geogfromtext() to create spatial objects](./practical-sql-anthony-debarros/ch15/listing_15-04.sql)|190
 15|[functions specific to making points](./practical-sql-anthony-debarros/ch15/listing_15-05.sql)|191
 15|[functions specific to making linestrings](./practical-sql-anthony-debarros/ch15/listing_15-06.sql)|192
+15|[functions specific to making polygons](./practical-sql-anthony-debarros/ch15/listing_15-07.sql)|193
 <hr/>
 <!-- 15|[](./practical-sql-anthony-debarros/ch15/listing_15-0.sql)|0
 -->
