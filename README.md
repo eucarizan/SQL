@@ -296,6 +296,7 @@ listing|solution|num
 15|[creating and indexing a geography column](./practical-sql-anthony-debarros/ch15/listing_15-09.sql)|195
 15|[using st_dwithin() to locaate farmers market within 10 kilometers of a point](./practical-sql-anthony-debarros/ch15/listing_15-10.sql)|196
 15|[using st_distance() to calculate the miles between yankee stadium](./practical-sql-anthony-debarros/ch15/listing_15-11.sql)|197
+15|[using st_distance() for each row in farmers_markets](./practical-sql-anthony-debarros/ch15/listing_15-12.sql)|198
 <hr/>
 <!-- 15|[](./practical-sql-anthony-debarros/ch15/listing_15-0.sql)|0
 -->
