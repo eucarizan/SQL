@@ -298,6 +298,7 @@ listing|solution|num
 15|[using st_distance() to calculate the miles between yankee stadium](./practical-sql-anthony-debarros/ch15/listing_15-11.sql)|197
 15|[using st_distance() for each row in farmers_markets](./practical-sql-anthony-debarros/ch15/listing_15-12.sql)|198
 15|[usign the <-> distance operator for a nearest neighbors search](./practical-sql-anthony-debarros/ch15/listing_15-13.sql)|199
+15|[checking the geom column's well-known text representation](./practical-sql-anthony-debarros/ch15/listing_15-14.sql)|200
 <hr/>
 <!-- 15|[](./practical-sql-anthony-debarros/ch15/listing_15-0.sql)|0
 -->
