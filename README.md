@@ -300,6 +300,7 @@ listing|solution|num
 15|[usign the <-> distance operator for a nearest neighbors search](./practical-sql-anthony-debarros/ch15/listing_15-13.sql)|199
 15|[checking the geom column's well-known text representation](./practical-sql-anthony-debarros/ch15/listing_15-14.sql)|200
 15|[finding the largest counties by area using st_area()](./practical-sql-anthony-debarros/ch15/listing_15-15.sql)|201
+15|[using st_within() to find the county belonging to a pair of coordinates](./practical-sql-anthony-debarros/ch15/listing_15-16.sql)|202
 <hr/>
 <!-- 15|[](./practical-sql-anthony-debarros/ch15/listing_15-0.sql)|0
 -->
