@@ -305,6 +305,7 @@ listing|solution|num
 15|[displaying countries near lincoln, nebraska](./practical-sql-anthony-debarros/ch15/listing_15-18.sql)|204
 15|[using st_geometrytype() to determine geometry](./practical-sql-anthony-debarros/ch15/listing_15-19.sql)|205
 15|[spatial join with st_intersects() to find roads crossing the santa fe river](./practical-sql-anthony-debarros/ch15/listing_15-20.sql)|206
+15|[using st_intersection() to show where roads cross the river](./practical-sql-anthony-debarros/ch15/listing_15-21.sql)|207
 <hr/>
 <!-- 15|[](./practical-sql-anthony-debarros/ch15/listing_15-0.sql)|0
 -->
