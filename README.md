@@ -307,11 +307,16 @@ listing|solution|num
 15|[spatial join with st_intersects() to find roads crossing the santa fe river](./practical-sql-anthony-debarros/ch15/listing_15-20.sql)|206
 15|[using st_intersection() to show where roads cross the river](./practical-sql-anthony-debarros/ch15/listing_15-21.sql)|207
 <hr/>
-<!-- 15|[](./practical-sql-anthony-debarros/ch15/listing_15-0.sql)|0
+
+#### Ch16: Working with JSON Data
+listing|solution|num
+:-:|:-:|:-:
+16|[json with information about two films](./practical-sql-anthony-debarros/ch16/listing_16-01.json)|208
+16|[creating a table to hold json data and adding an index](./practical-sql-anthony-debarros/ch16/listing_16-02.sql)|209
+<hr/>
+<!-- 16|[](./practical-sql-anthony-debarros/ch16/listing_16-0.sql)|0
 -->
 
-<!-- #### Ch16: Working with JSON Data
--->
 <!-- #### Ch17: Saving Time with Views, Functions, and Triggers
 -->
 <!-- #### Ch18: Using PostgreSQL from the Command Line
