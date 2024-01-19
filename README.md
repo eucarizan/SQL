@@ -314,6 +314,7 @@ listing|solution|num
 16|[json with information about two films](./practical-sql-anthony-debarros/ch16/listing_16-01.json)|208
 16|[creating a table to hold json data and adding an index](./practical-sql-anthony-debarros/ch16/listing_16-02.sql)|209
 16|[retrieving a json key value with field extraction operators](./practical-sql-anthony-debarros/ch16/listing_16-03.sql)|210
+16|[retrieving a json aray value with element extractoin operators](./practical-sql-anthony-debarros/ch16/listing_16-04.sql)|211
 <hr/>
 <!-- 16|[](./practical-sql-anthony-debarros/ch16/listing_16-0.sql)|0
 -->
