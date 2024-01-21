@@ -316,6 +316,7 @@ listing|solution|num
 16|[retrieving a json key value with field extraction operators](./practical-sql-anthony-debarros/ch16/listing_16-03.sql)|210
 16|[retrieving a json aray value with element extraction operators](./practical-sql-anthony-debarros/ch16/listing_16-04.sql)|211
 16|[retrieving a json key value with path extraction operators](./practical-sql-anthony-debarros/ch16/listing_16-05.sql)|212
+16|[demonstrating the @> containment operator](./practical-sql-anthony-debarros/ch16/listing_16-06.sql)|213
 <hr/>
 <!-- 16|[](./practical-sql-anthony-debarros/ch16/listing_16-0.sql)|0
 -->
