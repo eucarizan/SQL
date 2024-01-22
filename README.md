@@ -19,6 +19,7 @@
       - [Ch13: Advanced Query Techniques](#ch13-advanced-query-techniques)
       - [Ch14: Mining Text to Find Meaningful Data](#ch14-mining-text-to-find-meaningful-data)
       - [Ch15: Analyzing Spatial Data with PostGIS](#ch15-analyzing-spatial-data-with-postgis)
+      - [Ch16: Working with JSON Data](#ch16-working-with-json-data)
     - [2: SoftUni](#2-softuni)
     - [3: Hyperskill](#3-hyperskill)
       - [Projects](#projects)
@@ -317,6 +318,7 @@ listing|solution|num
 16|[retrieving a json aray value with element extraction operators](./practical-sql-anthony-debarros/ch16/listing_16-04.sql)|211
 16|[retrieving a json key value with path extraction operators](./practical-sql-anthony-debarros/ch16/listing_16-05.sql)|212
 16|[demonstrating the @> containment operator](./practical-sql-anthony-debarros/ch16/listing_16-06.sql)|213
+16|[using a containment operator in a where clause](./practical-sql-anthony-debarros/ch16/listing_16-07.sql)|214
 <hr/>
 <!-- 16|[](./practical-sql-anthony-debarros/ch16/listing_16-0.sql)|0
 -->
