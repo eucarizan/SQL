@@ -320,6 +320,7 @@ listing|solution|num
 16|[demonstrating the @> containment operator](./practical-sql-anthony-debarros/ch16/listing_16-06.sql)|213
 16|[using a containment operator in a where clause](./practical-sql-anthony-debarros/ch16/listing_16-07.sql)|214
 16|[demonstrating the <@ containment operator](./practical-sql-anthony-debarros/ch16/listing_16-08.sql)|215
+16|[demonstrating existence operators](./practical-sql-anthony-debarros/ch16/listing_16-09.sql)|216
 <hr/>
 <!-- 16|[](./practical-sql-anthony-debarros/ch16/listing_16-0.sql)|0
 -->
