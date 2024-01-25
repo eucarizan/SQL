@@ -321,6 +321,8 @@ listing|solution|num
 16|[using a containment operator in a where clause](./practical-sql-anthony-debarros/ch16/listing_16-07.sql)|214
 16|[demonstrating the <@ containment operator](./practical-sql-anthony-debarros/ch16/listing_16-08.sql)|215
 16|[demonstrating existence operators](./practical-sql-anthony-debarros/ch16/listing_16-09.sql)|216
+16|[json with data on one earthquake](./practical-sql-anthony-debarros/ch16/listing_16-10.json)|217
+16|[creating and loading an earthquakes table](./practical-sql-anthony-debarros/ch16/listing_16-11.sql)|218
 <hr/>
 <!-- 16|[](./practical-sql-anthony-debarros/ch16/listing_16-0.sql)|0
 -->
