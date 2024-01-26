@@ -324,6 +324,7 @@ listing|solution|num
 16|[json with data on one earthquake](./practical-sql-anthony-debarros/ch16/listing_16-10.json)|217
 16|[creating and loading an earthquakes table](./practical-sql-anthony-debarros/ch16/listing_16-11.sql)|218
 16|[retrieving the earthquake time](./practical-sql-anthony-debarros/ch16/listing_16-12.sql)|219
+16|[converting the time value to a timestamp](./practical-sql-anthony-debarros/ch16/listing_16-13.sql)|220
 <hr/>
 <!-- 16|[](./practical-sql-anthony-debarros/ch16/listing_16-0.sql)|0
 -->
