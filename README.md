@@ -326,6 +326,7 @@ listing|solution|num
 16|[retrieving the earthquake time](./practical-sql-anthony-debarros/ch16/listing_16-12.sql)|219
 16|[converting the time value to a timestamp](./practical-sql-anthony-debarros/ch16/listing_16-13.sql)|220
 16|[finding the minimum and maximum earthquake times](./practical-sql-anthony-debarros/ch16/listing_16-14.sql)|221
+16|[finding the five earthquakes with the largest magnitude](./practical-sql-anthony-debarros/ch16/listing_16-15.sql)|222
 <hr/>
 <!-- 16|[](./practical-sql-anthony-debarros/ch16/listing_16-0.sql)|0
 -->
