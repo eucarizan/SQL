@@ -328,6 +328,7 @@ listing|solution|num
 16|[finding the minimum and maximum earthquake times](./practical-sql-anthony-debarros/ch16/listing_16-14.sql)|221
 16|[finding the five earthquakes with the largest magnitude](./practical-sql-anthony-debarros/ch16/listing_16-15.sql)|222
 16|[finding earthquakes with the most did you feel it reports](./practical-sql-anthony-debarros/ch16/listing_16-16.sql)|223
+16|[extracting the earthquake's location data](./practical-sql-anthony-debarros/ch16/listing_16-17.sql)|224
 <hr/>
 <!-- 16|[](./practical-sql-anthony-debarros/ch16/listing_16-0.sql)|0
 -->
