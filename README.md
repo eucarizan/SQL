@@ -330,6 +330,7 @@ listing|solution|num
 16|[finding earthquakes with the most did you feel it reports](./practical-sql-anthony-debarros/ch16/listing_16-16.sql)|223
 16|[extracting the earthquake's location data](./practical-sql-anthony-debarros/ch16/listing_16-17.sql)|224
 16|[converting json location data to postgis geography](./practical-sql-anthony-debarros/ch16/listing_16-18.sql)|225
+16|[converting json coordinates to a postgis geometry column](./practical-sql-anthony-debarros/ch16/listing_16-19.sql)|226
 <hr/>
 <!-- 16|[](./practical-sql-anthony-debarros/ch16/listing_16-0.sql)|0
 -->
