@@ -334,6 +334,7 @@ listing|solution|num
 16|[finding earthquakes within 50 miles of downtown tulsa, oklahoma](./practical-sql-anthony-debarros/ch16/listing_16-20.sql)|227
 16|[turning query results into json with to_json()](./practical-sql-anthony-debarros/ch16/listing_16-21.sql)|228
 16|[specifying columns to convert to json](./practical-sql-anthony-debarros/ch16/listing_16-22.sql)|229
+16|[generating key names with a subquery](./practical-sql-anthony-debarros/ch16/listing_16-23.sql)|230
 <hr/>
 <!-- 16|[](./practical-sql-anthony-debarros/ch16/listing_16-0.sql)|0
 -->
