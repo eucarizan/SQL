@@ -336,6 +336,7 @@ listing|solution|num
 16|[specifying columns to convert to json](./practical-sql-anthony-debarros/ch16/listing_16-22.sql)|229
 16|[generating key names with a subquery](./practical-sql-anthony-debarros/ch16/listing_16-23.sql)|230
 16|[aggregating the rows and converting to json](./practical-sql-anthony-debarros/ch16/listing_16-24.sql)|231
+16|[adding a top-level key/value pair via concatenation](./practical-sql-anthony-debarros/ch16/listing_16-25.sql)|232
 <hr/>
 <!-- 16|[](./practical-sql-anthony-debarros/ch16/listing_16-0.sql)|0
 -->
