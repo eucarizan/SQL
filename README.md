@@ -339,6 +339,7 @@ listing|solution|num
 16|[adding a top-level key/value pair via concatenation](./practical-sql-anthony-debarros/ch16/listing_16-25.sql)|232
 16|[setting an array value at a path](./practical-sql-anthony-debarros/ch16/listing_16-26.sql)|233
 16|[deleting values from json](./practical-sql-anthony-debarros/ch16/listing_16-27.sql)|234
+16|[finding the length of an array](./practical-sql-anthony-debarros/ch16/listing_16-28.sql)|235
 <hr/>
 <!-- 16|[](./practical-sql-anthony-debarros/ch16/listing_16-0.sql)|0
 -->
