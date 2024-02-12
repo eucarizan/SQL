@@ -340,6 +340,7 @@ listing|solution|num
 16|[setting an array value at a path](./practical-sql-anthony-debarros/ch16/listing_16-26.sql)|233
 16|[deleting values from json](./practical-sql-anthony-debarros/ch16/listing_16-27.sql)|234
 16|[finding the length of an array](./practical-sql-anthony-debarros/ch16/listing_16-28.sql)|235
+16|[returning array elements as rows](./practical-sql-anthony-debarros/ch16/listing_16-29.sql)|236
 <hr/>
 <!-- 16|[](./practical-sql-anthony-debarros/ch16/listing_16-0.sql)|0
 -->
