@@ -341,11 +341,12 @@ listing|solution|num
 16|[deleting values from json](./practical-sql-anthony-debarros/ch16/listing_16-27.sql)|234
 16|[finding the length of an array](./practical-sql-anthony-debarros/ch16/listing_16-28.sql)|235
 16|[returning array elements as rows](./practical-sql-anthony-debarros/ch16/listing_16-29.sql)|236
+16|[returning key values from each item in an array](./practical-sql-anthony-debarros/ch16/listing_16-30.sql)|237
 <hr/>
-<!-- 16|[](./practical-sql-anthony-debarros/ch16/listing_16-0.sql)|0
--->
 
 <!-- #### Ch17: Saving Time with Views, Functions, and Triggers
+-->
+<!-- 16|[](./practical-sql-anthony-debarros/ch16/listing_16-0.sql)|0
 -->
 <!-- #### Ch18: Using PostgreSQL from the Command Line
 -->
