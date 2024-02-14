@@ -344,10 +344,14 @@ listing|solution|num
 16|[returning key values from each item in an array](./practical-sql-anthony-debarros/ch16/listing_16-30.sql)|237
 <hr/>
 
-<!-- #### Ch17: Saving Time with Views, Functions, and Triggers
+#### Ch17: Saving Time with Views, Functions, and Triggers
+listing|solution|num
+:-:|:-:|:-:
+17|[creating a view that displays nevada 2019 counties](./practical-sql-anthony-debarros/ch17/listing_17-01.sql)|238
+<hr/>
+<!-- 17|[](./practical-sql-anthony-debarros/ch17/listing_17-0.sql)|0
 -->
-<!-- 16|[](./practical-sql-anthony-debarros/ch16/listing_16-0.sql)|0
--->
+
 <!-- #### Ch18: Using PostgreSQL from the Command Line
 -->
 <!-- #### Ch19: Maintaining Your Database
