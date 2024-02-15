@@ -348,6 +348,7 @@ listing|solution|num
 listing|solution|num
 :-:|:-:|:-:
 17|[creating a view that displays nevada 2019 counties](./practical-sql-anthony-debarros/ch17/listing_17-01.sql)|238
+17|[querying the nevada_counties_pop_2019](./practical-sql-anthony-debarros/ch17/listing_17-02.sql)|239
 <hr/>
 <!-- 17|[](./practical-sql-anthony-debarros/ch17/listing_17-0.sql)|0
 -->
