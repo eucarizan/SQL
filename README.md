@@ -391,6 +391,9 @@ listing|solution|num
     - [ ] [7 - Land ho!](./hyperskill/projects/hacker-attack/s07.sql)
 - [ ] [Library Management System](./README.md) `⭐4.0` `6hr`
 - [ ] [School of Wizards and Magic Wars](./README.md) `⭐4.3` `9hr`
+- [_] [Computer Store Database](./hyperskill/projects/computer-store-db/README.md) `⭐4.2` `7hr`
+  - Stages
+    - [x] [1 - Expensive printers](./hyperskill/projects/computer-store-db/s01.sql)
 
 ### 4: SQL Puzzles and Answers (book)
 - Joe Celko's book

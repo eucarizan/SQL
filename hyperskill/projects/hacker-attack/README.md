@@ -87,7 +87,22 @@ Please find the _.csv_ files you will use in this project:
 
 
 #### 1.3 Example
-The greater-than symbol followed by a space (`> `) represents the user input. Note that it's not part of the input.
+```
+CREATE TABLE "person"(
+  "person_id" VARCHAR(9) PRIMARY KEY,
+  "full_name" TEXT,
+  "address" TEXT,
+  "building_number" TEXT,
+  "phone_number" TEXT
+);
+.mode csv
+.import --skip 1 person.csv person
+.mode column
+SELECT ...
+FROM ...
+ORDER BY ...
+LIMIT ...;
+```
 
 **Example 1:**
 _Output:_
