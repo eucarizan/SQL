@@ -111,6 +111,27 @@ SELECT COUNT(maker) as number_of_unique_makers...;
 
 </details>
 
+### 4: Trust no one 
+<details>
+<summary>Find the maker that produces computer models</summary>
+
+#### 4.1 Description
+Once you have identified the one-product manufacturers, the next step is identifying untrustworthy ones that supply subpar products. As a computer store manager, one way to identify unreliable manufacturers is to look for those that produce slow PCs or laptops. This can be a helpful strategy in determining which manufacturers to avoid in the future and ensuring that your store only stocks high-quality products.
+
+#### 4.2 Objectives
+- Find the `maker` that produces computer models (this includes `Laptops` and `PCs`) with the lowest speed;
+- Output the `maker` and `model` information from the `Product` table, along with the `speed` and `price` details from either the `Laptop` or `PC` table.
+
+#### 4.3 Examples
+```sql
+WITH my_table AS (SELECT a.maker, a.model, b.speed ...;
+```
+
+#### 4.4 Solution
+[solution-04](./s04.sql)
+
+</details>
+
 [<<](../../../README.md)
 
 <!--
