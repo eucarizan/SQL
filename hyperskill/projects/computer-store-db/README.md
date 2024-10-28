@@ -73,6 +73,44 @@ SELECT product.maker, ...;
 
 </details>
 
+### 3: Uniques  
+<details>
+<summary>Unique manufacturers</summary>
+
+#### 3.1 Description
+As a computer store manager, your next task is identifying unique product manufacturers delivering only one model. By sorting the manufacturers according to their special characteristics, you can determine if these one-product producers are essential to your supply chain. If they are not, you may consider cutting off their supplies.
+
+#### 3.2 Objectives
+- Using the `Product` table, determine the number of manufacturers producing one product model;
+- Output the `Number` of unique manufacturers from the `Product` table.
+
+#### 3.3 Examples
+_Product Table Example_:
+
+model|maker|type
+-|-|-
+1001|Apple|Laptop
+1002|Apple|Laptop
+2001|Acer|PC
+3001|HP|Printer
+3002|HP|Laptop
+4001|Samsung|Printer
+5001|Lenovo|PC
+5002|Lenovo|PC
+5003|Lenovo|Laptop
+
+From the above table, it can be observed that only `Acer` and `Samsung` manufacturers produce one model. Therefore, based on the provided data, the `Number` of unique manufacturers is `2`.
+
+_Beginning of the code_:
+```sql
+SELECT COUNT(maker) as number_of_unique_makers...;
+```
+
+#### 3.4 Solution
+[solution-03](./s03.sql)
+
+</details>
+
 [<<](../../../README.md)
 
 <!--

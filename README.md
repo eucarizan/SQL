@@ -395,6 +395,7 @@ listing|solution|num
   - Stages
     - [x] [1 - Expensive printers](./hyperskill/projects/computer-store-db/s01.sql)
     - [x] [2 - Marketable laptops](./hyperskill/projects/computer-store-db/s02.sql)
+    - [x] [3 - Uniques](./hyperskill/projects/computer-store-db/s03.sql)
 
 ### 4: SQL Puzzles and Answers (book)
 - Joe Celko's book
