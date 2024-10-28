@@ -394,6 +394,7 @@ listing|solution|num
 - [_] [Computer Store Database](./hyperskill/projects/computer-store-db/README.md) `⭐4.2` `7hr`
   - Stages
     - [x] [1 - Expensive printers](./hyperskill/projects/computer-store-db/s01.sql)
+    - [x] [2 - Marketable laptops](./hyperskill/projects/computer-store-db/s02.sql)
 
 ### 4: SQL Puzzles and Answers (book)
 - Joe Celko's book

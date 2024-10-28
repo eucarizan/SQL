@@ -19,7 +19,7 @@ As the manager of the computer hardware shop, your primary responsibility is to 
 ## Stages
 ### 1: Expensive printers 
 <details>
-<summary>problem</summary>
+<summary>Find printers with price greater than $200</summary>
 
 #### 1.1 Description
 As a computer store manager, staying informed about the store's condition and the products is crucial. It's vital to gather information about expensive items, such as printers, available in limited quantities. This will help you manage inventory effectively and ensure you offer your customers the best products possible.
@@ -48,7 +48,28 @@ SELECT model, ...;
 ```
 
 #### 1.4 Solution
-[s01](./s01.sql)
+[solution-01](./s01.sql)
+
+</details>
+
+### 2: Marketable laptops  
+<details>
+<summary>Find laptops with at least 1000GB</summary>
+
+#### 2.1 Description
+You've discovered that laptops with at least 1000 GB of hard disk capacity and decent speed are selling well. Find out which manufacturer produces laptops with at least 1000 GB of disk size.
+
+#### 2.2 Objectives
+- Obtain a list of manufacturers (`maker`) that produce laptops with a hard disk (`hd`) space of at least 1000 GB, along with the speed (`speed`), the price (`price`), and the model (`model`) of those laptops;
+- Find the `maker` and `model` of the laptop from the table `Product`, and the `hd`, `speed`, and `price` from the table `Laptop`. Order output first by `hd`, then by descending order `speed`, and then by `price`.
+
+#### 2.3 Examples
+```sql
+SELECT product.maker, ...;
+```
+
+#### 2.4 Solution
+[solution-02](./s02.sql)
 
 </details>
 
@@ -56,10 +77,10 @@ SELECT model, ...;
 
 <!--
 :%s/\(Sample \(Input\|Output\) \d:\)\n\(.*\)/```\r\r**\1**\r```\3/gc
+### 0:  
 <details>
 <summary></summary>
 
-### 0:  
 #### 0.1 Description
 
 #### 0.2 Objectives
@@ -67,7 +88,9 @@ SELECT model, ...;
 #### 0.3 Examples
 
 #### 0.4 Solution
+[solution-00](./s00.sql)
 
 </details>
+
 -->
 
