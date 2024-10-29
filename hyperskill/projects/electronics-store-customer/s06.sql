@@ -17,7 +17,7 @@ FROM (
         cd,
         price,
         rank() OVER (PARTITION BY ram ORDER BY price DESC) AS rank
-    FROM pc
+    FROM PC
     ORDER BY ram, rank() OVER (PARTITION BY ram ORDER BY price DESC)
 ) AS m
 WHERE m.rank = 2;

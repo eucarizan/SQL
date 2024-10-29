@@ -9,7 +9,7 @@ HAVING
     sum(CASE WHEN type = 'PC' THEN 1 ELSE 0 END) > 0 
     AND 
     sum(CASE WHEN type = 'Laptop' THEN 1 ELSE 0 END) > 0
-ORDER BY maker
+--ORDER BY maker
 ;
 --SELECT
 --    p.maker,

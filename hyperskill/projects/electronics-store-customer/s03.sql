@@ -2,7 +2,7 @@
 SELECT 
    p.maker, 
    sum(l.price) AS total_price
-FROM product p
-JOIN laptop l ON p.model = l.model
+FROM Product p
+JOIN Laptop l ON p.model = l.model
 GROUP BY maker
 ORDER BY total_price;
