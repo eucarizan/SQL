@@ -10,6 +10,8 @@ WHERE person_id NOT IN (SELECT person_id FROM teacher)
 ORDER BY full_name
 LIMIT 5;
 
+.print
+
 SELECT COUNT(person_id)
 FROM person
 WHERE person_id NOT IN (SELECT person_id FROM teacher);
