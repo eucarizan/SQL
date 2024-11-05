@@ -22,26 +22,22 @@ SELECT * FROM score1 UNION ALL SELECT * FROM score2 UNION ALL SELECT * FROM scor
 
 DROP TABLE score1; DROP TABLE score2; DROP TABLE score3;
 
-UPDATE student SET grade_code = 'GD-10'
-WHERE person_id IN (
-    SELECT person_id FROM score
-    GROUP BY person_id HAVING count(score) = 1
-); 
+WITH stu_sc AS (
+    SELECT 
+        st.person_id AS person_id,
+        CASE count(sc.score) 
+            WHEN 0 THEN 'GD-09' 
+            WHEN 1 THEN 'GD-10' 
+            WHEN 2 THEN 'GD-11' 
+            WHEN 3 THEN 'GD-12'
+        END AS grade_code
+    FROM student st LEFT JOIN score sc ON st.person_id = sc.person_id
+    GROUP BY st.person_id
+)
 
-UPDATE student SET grade_code = 'GD-11'
-WHERE person_id IN (
-    SELECT person_id FROM score
-    GROUP BY person_id HAVING count(score) = 2
-); 
-
-UPDATE student SET grade_code = 'GD-12'
-WHERE person_id IN (
-    SELECT person_id FROM score
-    GROUP BY person_id HAVING count(score) = 3
-); 
-
-UPDATE student SET grade_code = 'GD-09'
-WHERE grade_code IS NULL;
+UPDATE student SET grade_code = stu_sc.grade_code
+FROM stu_sc
+WHERE stu_sc.person_id = student.person_id;
 
 SELECT * FROM student ORDER BY person_id LIMIT 5;
 
