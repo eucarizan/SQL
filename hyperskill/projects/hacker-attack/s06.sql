@@ -41,6 +41,24 @@ WHERE stu_sc.person_id = student.person_id;
 
 SELECT * FROM student ORDER BY person_id LIMIT 5;
 
+-- sqlite, window function
+/*
+UPDATE student
+SET grade_code = CASE
+    WHEN score_count = 0 THEN 'GD-09'
+    WHEN score_count = 1 THEN 'GD-10'
+    WHEN score_count = 2 THEN 'GD-11'
+    WHEN score_count = 3 THEN 'GD-12'
+END
+FROM (
+    SELECT 
+        st.person_id,
+        count(sc.score) OVER (PARTITION BY sc.person_id) AS score_count
+    FROM student st LEFT JOIN score sc ON st.person_id = sc.person_id
+) AS student_score
+WHERE student.person_id = student_score.person_id;
+*/
+
 -- postgresql, unfinished
 /*
 -- UPDATE student
