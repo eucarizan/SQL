@@ -5,6 +5,7 @@
   - [About](#about)
   - [Stages](#stages)
     - [1: Updating Passenger Trip Dates](#1-updating-passenger-trip-dates)
+    - [2: Identifying Key Passengers](#2-identifying-key-passengers)
 
 ## Learning outcomes
 Embark on a journey of SQL mastery with the Airline Transportation Database project! Explore Intermediate topics including JOINs, set operations, window functions, and table manipulation techniques such as UPDATE and ALTER TABLE commands. Learn to analyze data comprehensively, employ WITH statements for temporary result sets, utilize string operations for data manipulation, and leverage window functions for deeper insights. This project offers a platform to refine your SQL skills, equipping you to tackle complex analytical tasks, optimize airline operations efficiently, and manipulate database structures effectively. Furthermore, to assist you in grasping the topics and efficiently crafting queries, we'll provide examples of ChatGPT prompts. These examples will help you understand how to use the AI tools in you work effectively.
@@ -112,7 +113,79 @@ UPDATE Pass_in_trip ...;
 
 SELECT * ...;
 ```
-[solution](./s01.sq)
+[solution](./s01.sql)
+
+</details>
+
+### 2: Identifying Key Passengers
+<details>
+<summary>Identify the names of passengers who frequently fly with specific airline companies.</summary>
+
+#### 2.1 Description
+In this stage as a data analyst, your task is to identify passengers who frequently fly with specific airline companies. By analyzing database records, you'll pinpoint passengers who have flown multiple times with particular airlines. This insight aids airlines in tailoring services to meet the needs of loyal customers.
+
+#### 2.2 Objectives
+- Combine passenger flight data from the `Passenger`, `Pass_in_trip`, `Trip`, and `Airline_company` tables to create an overview of frequent flyers with specific airlines.
+- Output the `passenger_name`, `COUNT` of the passenger's number of flights on a specific airline company as `num_flights`, and airline `company_name`.
+- To be listed as a frequent flyer the `num_flights` must be at least more than 1.
+- Utilize the `JOIN` function effectively to combine multiple tables accurately.
+- Use the `GROUP BY` function to combine according to the `passneger_name` and `company_name`
+- The column order is essential.
+
+##### ChatGPT promts that help to write the query
+- Consider a scenario where you need to analyze flight data to identify frequent flyers with specific airlines. How would you effectively merge data from multiple sources using SQL JOINs to gather all the necessary information for analysis?
+- Once you've combined the relevant data, how would you use SQL aggregation functions to calculate the number of flights each individual has taken with a particular airline? Think about how you would organize the data to facilitate this calculation.
+- To identify frequent flyers accurately, you'll need to filter the results based on certain conditions. How would you utilize SQL clauses to ensure that only individuals who meet the criteria for being frequent flyers are included in the final analysis?
+
+#### 2.3 Examples
+*Airline_company Table Example*:
+ID_comp|company_name
+-|-
+1|Delta Airlines
+2|American Airlines
+
+*Passenger Table Example*:
+ID_psg|passenger_name
+-|-
+1|John Smith
+2|Mary Johnson
+3|James Williams
+
+*Trip Table Example*:
+trip_no|ID_comp|plane_type|town_from|town_to|time_out|time_in
+-|-|-|-|-|-|-
+1|1|Boeing 737|Chicago|Miami|2024-02-23 08:00:00|2024-02-23 18:45:00
+2|2|Airbus A320|New York|Boston|2024-02-24 23:00:00|2024-02-25 08:00:00
+
+*Pass_in_trip Table Example*:
+trip_no|trip_date|ID_psg|seat_number
+-|-|-|-
+1|2024-02-23 00:00:00|1|01A
+1|2024-02-23 00:00:00|1|21B
+2|2024-02-24 00:00:00|2|30D
+2|2024-02-24 00:00:00|2|05C
+2|2024-02-24 00:00:00|3|86A
+
+From the data presented in the table above, it is evident that `passenger_name`: **John Smith** with the `ID_psg`: **1** exists in the `Pass_in_trip` table 2 times. In both cases it aligned to the `trip_no`: **1**, consequently that `trip_no` in the Trip table aligned to the `ID_comp`: **1** which has the `company_name`: **Delta Airlines** in the `Airline_company` table.
+
+The output table, after identifying the `passenger_name` having `num_flights` at least 1 on the specific airline companies :
+
+MySQL Query Output
+
+passenger_name|num_flights|company_name
+-|-|-
+John Smith|2|Delta Airlines
+Mary Johnson|2|American Airlines
+
+*From the output above, it can be seen that the order of the columns is* `passenger_name` -> `num_flights` -> `company_name`
+
+##### Query template:
+```sql
+SELECT
+   p.passenger_name, ...;
+```
+
+[solution](./s02.sql)
 
 </details>
 
@@ -127,8 +200,13 @@ SELECT * ...;
 
 #### 0.2 Objectives
 
+##### ChatGPT promts that help to write the query
+
 #### 0.3 Examples
 
+[solution](./s00.sql)
+
 </details>
+
 -->
 
