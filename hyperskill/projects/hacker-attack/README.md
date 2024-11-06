@@ -28,6 +28,10 @@
       - [6.1 Description](#61-description)
       - [6.2 Objectives](#62-objectives)
       - [6.3 Example](#63-example)
+    - [7: Land ho](#7-land-ho)
+      - [7.1 Description](#71-description)
+      - [7.2 Objectives](#72-objectives)
+      - [7.3 Example](#73-example)
 
 ## Learning outcomes
 Get familiar with SQL commands, and work with _csv_ files. Import data from files, learn how to merge data from different tables, and study how to use various SQL commands.
