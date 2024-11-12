@@ -6,6 +6,7 @@
   - [Stages](#stages)
     - [1: Updating Passenger Trip Dates](#1-updating-passenger-trip-dates)
     - [2: Identifying Key Passengers](#2-identifying-key-passengers)
+    - [3: Route Performance Analysis](#3-route-performance-analysis)
 
 ## Learning outcomes
 Embark on a journey of SQL mastery with the Airline Transportation Database project! Explore Intermediate topics including JOINs, set operations, window functions, and table manipulation techniques such as UPDATE and ALTER TABLE commands. Learn to analyze data comprehensively, employ WITH statements for temporary result sets, utilize string operations for data manipulation, and leverage window functions for deeper insights. This project offers a platform to refine your SQL skills, equipping you to tackle complex analytical tasks, optimize airline operations efficiently, and manipulate database structures effectively. Furthermore, to assist you in grasping the topics and efficiently crafting queries, we'll provide examples of ChatGPT prompts. These examples will help you understand how to use the AI tools in you work effectively.
@@ -186,6 +187,69 @@ SELECT
 ```
 
 [solution](./s02.sql)
+
+</details>
+
+### 3: Route Performance Analysis
+<details>
+<summary>Analyze flight routes by calculating average flight duration, total passengers, and income generated per route.</summary>
+
+#### 3.1 Description
+In this stage, as a novice data analyst, you need to examine the efficiency of flight routes by computing key metrics such as average flight duration, total passengers served, and income generated per route. This stage focuses on synthesizing data from various sources to derive insights into route profitability and passenger demand, helping optimize airline operations and resource allocation.
+
+#### 3.2 Objectives
+- Identify the unique routes by `CONCAT` the `town_from` and `town_to` from the `Trip` table, naming it `route`.
+- Calculate the average flight duration in **minutes** for each route, where there may be multiple identical routes with different flight durations. This average is denoted as `avg_flight_duration`.
+- `COUNT` the total number of passengers who flew on each route, designated as `total_passengers`.
+- Calculate the `SUM` income generated for each route, considering each second of flight as worth **1 cent**, termed `total_income`. The final answer of `total_income` must be in **dollars**.
+- Utilize the `JOIN` function to combine multiple tables correctly.
+- `ORDER BY` the final result by `total_income` in descending order.
+- The column order is essential.
+
+##### ChatGPT promts that help to write the query
+- Consider a scenario where you need to analyze data to identify unique routes. How would you approach formulating an SQL query to accomplish this task?
+- Now, imagine you've identified the unique routes. How would you proceed to calculate the average flight durations for each route using SQL?
+- After determining the average flight durations, how would you go about counting the total number of passengers for each route in the dataset?
+- Finally, consider the task of computing the total income generated for each route. How would you formulate an SQL query to achieve this, taking into account factors such as flight duration and passenger counts?
+
+#### 3.3 Examples
+*Trip Table Example*:
+trip_no|ID_comp|plane_type|town_from|town_to|time_out|time_in
+:-:|:-:|:-:|:-:|:-:|:-:|:-:
+1|1|Boeing 737|Chicago|Miami|2024-02-23 08:00:00|2024-02-23 18:45:00
+2|2|Airbus A320|New York|Boston|2024-02-24 23:00:00|2024-02-25 08:00:00
+
+*Pass_in_trip Table Example*:
+trip_no|trip_date|ID_psg|seat_number
+:-:|:-:|:-:|:-:
+1|2024-02-23 00:00:00|1|01A
+1|2024-02-23 00:00:00|1|21B
+2|2024-02-24 00:00:00|2|30D
+2|2024-02-24 00:00:00|2|05C
+2|2024-02-24 00:00:00|3|86A
+
+From the tables, we can observe a `route` from *`town_from`*: ***Chicago*** to *`town_to`*: ***Miami*** with a *`trip_no`*: ***1***. This `route` has two occurrences in the `Trip` table, indicating a *`total_passengers`*: ***2*** .
+
+The `avg_flight_duration` for this route is calculated by subtracting the `time_out` from the `time_in`, resulting in 10 hours and 45 minutes or **645** minutes. The `total_income` for this route is computed by multiplying the `avg_flight_duration` (converted to seconds) by the `total_passengers` and $0.01 per second, yielding **$774**.
+
+Finally, the output table presents each `route`, its corresponding `avg_flight_duration`, `total_passengers`, and `total_income`, ordered by `total_income` in descending order:
+
+MySQL Query Output
+
+route|avg_flight_duration|total_passengers|total_income
+:-:|:-:|:-:|:-:
+New York-Boston|540|3|972
+Chicago-Miami|645|2|774
+
+*From the output above, it can be seen that the order of the columns is `route` -> `avg_flight_duration` -> `total_passengers` -> `total_income`*
+
+##### Query template:
+```sql
+SELECT 
+    CONCAT(... '-' ...) AS route, ...;
+```
+
+[solution](./s00.sql)
 
 </details>
 
