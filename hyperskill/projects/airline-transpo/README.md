@@ -7,6 +7,7 @@
     - [1: Updating Passenger Trip Dates](#1-updating-passenger-trip-dates)
     - [2: Identifying Key Passengers](#2-identifying-key-passengers)
     - [3: Route Performance Analysis](#3-route-performance-analysis)
+    - [4: Boeing vs Airbus Comparison](#4-boeing-vs-airbus-comparison)
 
 ## Learning outcomes
 Embark on a journey of SQL mastery with the Airline Transportation Database project! Explore Intermediate topics including JOINs, set operations, window functions, and table manipulation techniques such as UPDATE and ALTER TABLE commands. Learn to analyze data comprehensively, employ WITH statements for temporary result sets, utilize string operations for data manipulation, and leverage window functions for deeper insights. This project offers a platform to refine your SQL skills, equipping you to tackle complex analytical tasks, optimize airline operations efficiently, and manipulate database structures effectively. Furthermore, to assist you in grasping the topics and efficiently crafting queries, we'll provide examples of ChatGPT prompts. These examples will help you understand how to use the AI tools in you work effectively.
@@ -250,6 +251,57 @@ SELECT
 ```
 
 [solution](./s00.sql)
+
+</details>
+
+### 4: Boeing vs Airbus Comparison
+<details>
+<summary>Compare flight durations and frequencies between Boeing and Airbus aircraft types.</summary>
+
+#### 4.1 Description
+In this stage, imagine you, as a data analyst, want to compare the average flight durations between Boeing and Airbus aircraft to see if there's a notable difference. Before doing that, you'll gather data on flight durations and frequencies for both Boeing and Airbus planes across different airline companies. You aim to collect information on how long these planes fly on average and how often they're used for flights.
+
+#### 4.2 Objectives
+- Identify the `aircraft_type` (Boeing or Airbus) based on the `plane_type` recorded in the `Trip` table. For instance, if the `plane_type` is **Boeing 737**, the `aircraft_type` would be **Boeing**.
+- Identify the `AVG` flight duration in **minutes** as `avg_flight_duration` and `COUNT` the number of flights as `num_flights` for each `aircraft_type` across all flights recorded in the `Trip` table.
+- All **Boeing** aircraft types in the `plane_type` column start with the word "Boeing," and all **Airbus** aircraft types start with the word "Airbus."
+- The column order is essential.
+
+##### ChatGPT promts that help to write the query
+- Imagine you have a dataset containing various aircraft types recorded in a specific column. How would you formulate an SQL query to categorize these aircraft types into distinct groups based on certain patterns or characteristics?
+- Now, assuming you have a dataset with flight records including departure and arrival times, how would you write an SQL query to calculate the average duration of flights for each type of aircraft?
+- In addition to calculating average flight durations, how would you formulate an SQL query to count the total number of flights recorded for each type of aircraft in the dataset?
+
+#### 4.3 Examples
+Trip Table Example:
+
+trip_no|ID_comp|plane_type|town_from|town_to|time_out|time_in
+:-:|:-:|:-:|:-:|:-:|:-:|:-:
+1|1|Boeing 737|Chicago|Miami|2024-02-23 08:00:00|2024-02-23 18:45:00
+2|2|Airbus A320|New York|Boston|2024-02-25 03:30:00|2024-02-25 15:20:00
+3|2|Boeing 777|New York|Los Angeles|2024-02-24 23:00:00|2024-02-25 08:00:00
+4|2|Airbus A330|Denver|Chicago|2024-02-24 16:40:00|2024-02-24 23:30:00
+
+From the data provided, we see that both *`plane_type`*: ***Boeing 737*** and ***Boeing 777 fall*** under the *`aircraft_type`*: ***Boeing***, resulting in a total of **2** `num_flights`. The first flight duration is from "2024-02-23 08:00:00" to "2024-02-23 18:45:00," which equals 10 hours and 45 minutes or 645 minutes. The second flight duration is from "2024-02-24 23:00:00" to "2024-02-25 08:00:00," totaling 9 hours or 540 minutes. The average `avg_flight_duration` for these two flights is calculated as (645 + 540) / 2 = **592.5** minutes.
+
+The resulting output table displays each `aircraft_type` alongside its corresponding `avg_flight_duration` and `num_flights`:
+
+MySQL Query Output
+
+aircraft_type|avg_flight_duration|num_flights
+:-:|:-:|:-:
+Boeing|592.5|2
+Airbus|560|2
+
+From the output above, it can be seen that the order of the columns is *`aircraft_type`* -> *`avg_flight_duration`* -> *`num_flights`*
+
+##### Query template:
+```sql
+SELECT
+    'Boeing' AS aircraft_type, ...;
+```
+
+[solution](./s04.sql)
 
 </details>
 
