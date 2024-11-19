@@ -8,6 +8,7 @@
     - [2: Identifying Key Passengers](#2-identifying-key-passengers)
     - [3: Route Performance Analysis](#3-route-performance-analysis)
     - [4: Boeing vs Airbus Comparison](#4-boeing-vs-airbus-comparison)
+    - [5: Top Routes by Duration For Each Company](#-top-routes-by-duration-for-each-company)
 
 ## Learning outcomes
 Embark on a journey of SQL mastery with the Airline Transportation Database project! Explore Intermediate topics including JOINs, set operations, window functions, and table manipulation techniques such as UPDATE and ALTER TABLE commands. Learn to analyze data comprehensively, employ WITH statements for temporary result sets, utilize string operations for data manipulation, and leverage window functions for deeper insights. This project offers a platform to refine your SQL skills, equipping you to tackle complex analytical tasks, optimize airline operations efficiently, and manipulate database structures effectively. Furthermore, to assist you in grasping the topics and efficiently crafting queries, we'll provide examples of ChatGPT prompts. These examples will help you understand how to use the AI tools in you work effectively.
@@ -302,6 +303,68 @@ SELECT
 ```
 
 [solution](./s04.sql)
+
+</details>
+
+### 5: Top Routes by Duration For Each Company
+<details>
+<summary>Identify the top two routes with the longest average total flight durations for each airline company</summary>
+
+#### 5.1 Description
+In this stage, your goal as a novice data analyst is to pinpoint the top two routes with the lengthiest average flight durations for every airline company. This involves analyzing flight data to determine the average duration between departure and arrival cities. The query will organize the data by company, departure city, and arrival city, calculating the average duration for each route. Finally, it ranks the routes by duration, selecting only the top two routes for each company.
+
+#### 5.2 Objectives
+- Identify the `company_name` from the `Airline_company` table and their corresponding `town_from` as `departure_city`, `town_to` as `arrival_city`, and average flight durations in **minutes** for routes from the `Trip` table as `avg_flight_duration`.
+- Output only the **top 2** airline companies as `company_name` based on the `avg_flight_duration`.
+- Utilize the `JOIN` function to combine multiple tables correctly and it is **recommended** to use the `WITH(CTE)` or `subqueries` with `ROW_NUMBER()` function to correctly rank the airline companies.
+- The column order is essential.
+
+*Hint: Use the query from Stage 3 for the calculation of avg_flight_duration.*
+
+##### ChatGPT promts that help to write the query
+- Imagine you have data spread across multiple tables containing information about airline companies, routes, and flight durations. How would you formulate an SQL query to extract relevant information such as company names, departure cities, arrival cities, and average flight durations for each route?
+- Now, assuming you've extracted the necessary information, how would you utilize SQL to rank the airline companies based on average flight durations for their routes? Consider using techniques like window functions or subqueries to achieve this.
+- In addition to ranking airline companies, how would you formulate an SQL query to filter the results and output only the top two airline companies based on average flight durations for their routes?
+
+#### 5.3 Examples
+*Airline_company Table Example*:
+ID_comp|company_name
+:-:|:-:
+1|Delta Airlines
+2|American Airlines
+
+*Trip Table Example*:
+trip_no|ID_comp|plane_type|town_from|town_to|time_out|time_in
+:-:|:-:|:-:|:-:|:-:|:-:|:-:
+1|2|Boeing 737|Chicago|Miami|2024-02-23 08:00:00|2024-02-23 18:45:00
+2|2|Airbus A320|New York|Boston|2024-02-25 03:30:00|2024-02-25 15:20:00
+3|2|Boeing 777|New York|Los Angeles|2024-02-24 23:00:00|2024-02-25 08:00:00
+4|1|Airbus A330|Denver|Chicago|2024-02-24 16:40:00|2024-02-24 23:30:00
+
+From the data above, we can see that for *`company_name`*: ***American Airlines*** (*`ID_comp`*: ***2***), three routes are **Chicago - Miami**, **New York - Boston**, and **New York - Los Angeles**. The `avg_flight_duration` for these routes are **645 minutes**, **710 minutes**, and **540 minutes** respectively. The top two longest `avg_flight_duration` are **710** and **645 minutes**, corresponding to the routes **New York - Boston** and **Chicago - Miami**.
+
+The resulting output table shows each `company_name` alongside its corresponding `departure_city`, `arrival_city`, and `avg_flight_duration` for the top 2 `avg_flight_duration`:
+
+MySQL Query Output
+company_name|departure_city|arrival_city|avg_flight_duration
+:-:|:-:|:-:|:-:
+American Airlines|New York|Boston|710
+American Airlines|Chicago|Miami|645
+Delta Airlines|Denver|Chicago|410
+
+*From the output above, it can be seen that the order of the columns is `company_name` -> `departure_city` -> `arrival_city` -> `avg_flight_duration`*
+
+##### Query template:
+```sql
+WITH RouteDuration AS (
+  SELECT
+    ac.company_name,
+    t.town_from AS departure_city,
+    t.town_to AS arrival_city, ...;
+```
+                            
+
+[solution](./s00.sql)
 
 </details>
 

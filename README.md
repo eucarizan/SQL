@@ -3,7 +3,10 @@
 ## Knowledge Map
 - [SQL practice](#sql-practice)
   - [Knowledge Map](#knowledge-map)
-    - [1: Practical SQL (book)](#1-practical-sql-book)
+    - [1: Hyperskill](#3-hyperskill)
+      - [Projects](#projects)
+    - [2: SoftUni](#2-softuni)
+    - [3: Practical SQL (book)](#1-practical-sql-book)
       - [Ch01: Setting Up Your Coding Environment](#ch01-setting-up-your-coding-environment)
       - [Ch02: Creating Your First Database and Table](#ch02-creating-your-first-database-and-table)
       - [Ch03: Beginning Data Exploration with SELECT](#ch03-beginning-data-exploration-with-select)
@@ -20,12 +23,42 @@
       - [Ch14: Mining Text to Find Meaningful Data](#ch14-mining-text-to-find-meaningful-data)
       - [Ch15: Analyzing Spatial Data with PostGIS](#ch15-analyzing-spatial-data-with-postgis)
       - [Ch16: Working with JSON Data](#ch16-working-with-json-data)
-    - [2: SoftUni](#2-softuni)
-    - [3: Hyperskill](#3-hyperskill)
-      - [Projects](#projects)
     - [4: SQL Puzzles and Answers (book)](#4-sql-puzzles-and-answers-book)
 
-### 1: Practical SQL (book)
+### 1: Hyperskill
+- Hyperskill DB exercises
+#### Projects
+- [x] [Electronics Store Customer](./hyperskill/projects/electronics-store-customer/README.md) `⭐4.4` `3hr`
+  - Stages
+    - [x] [1 - Fast PCs](./hyperskill/projects/electronics-store-customer/s01.sql)
+    - [x] [2 - Average printer price](./hyperskill/projects/electronics-store-customer/s02.sql)
+    - [x] [3 - Total cost of laptops](./hyperskill/projects/electronics-store-customer/s03.sql)
+    - [x] [4 - PCs and laptops](./hyperskill/projects/electronics-store-customer/s04.sql)
+    - [x] [5 - High-end laptop vs. PC Prices](./hyperskill/projects/electronics-store-customer/s05.sql)
+    - [x] [6 - Ranking PCs by RAM](./hyperskill/projects/electronics-store-customer/s06.sql)
+- [ ] [Databases for Sales](./README.md) `⭐4.2` `7hr`
+- [x] [Hacker Attack](./hyperskill/projects/hacker-attack/README.md) `⭐4.5` `7hr`
+  - Stages
+    - [x] [1 - School members](./hyperskill/projects/hacker-attack/s01.sql)
+    - [x] [2 - Who are you?](./hyperskill/projects/hacker-attack/s02.sql)
+    - [x] [3 - You are a student](./hyperskill/projects/hacker-attack/s03.sql)
+    - [x] [4 - Plenty of files](./hyperskill/projects/hacker-attack/s04.sql)
+    - [x] [5 - I know your score](./hyperskill/projects/hacker-attack/s05.sql)
+    - [x] [6 - Grade codes](./hyperskill/projects/hacker-attack/s06.sql)
+    - [x] [7 - Land ho!](./hyperskill/projects/hacker-attack/s07.sql)
+- [ ] [Library Management System](./README.md) `⭐4.0` `6hr`
+- [ ] [School of Wizards and Magic Wars](./README.md) `⭐4.3` `9hr`
+- [x] [Computer Store Database](./hyperskill/projects/computer-store-db/README.md) `⭐4.2` `7hr`
+  - Stages
+    - [x] [1 - Expensive printers](./hyperskill/projects/computer-store-db/s01.sql)
+    - [x] [2 - Marketable laptops](./hyperskill/projects/computer-store-db/s02.sql)
+    - [x] [3 - Uniques](./hyperskill/projects/computer-store-db/s03.sql)
+    - [x] [3 - Trust no one](./hyperskill/projects/computer-store-db/s04.sql)
+
+### 2: SoftUni
+- SoftUni DB exercises
+
+### 3: Practical SQL (book)
 - Anthony DeBarros, No Starch Press
 #### Ch01: Setting Up Your Coding Environment
 listing|solution|num
@@ -364,39 +397,6 @@ listing|solution|num
 -->
 <!-- :-:|:-:|:-:
 -->
-
-### 2: SoftUni
-- SoftUni DB exercises
-
-### 3: Hyperskill
-- Hyperskill DB exercises
-#### Projects
-- [x] [Electronics Store Customer](./hyperskill/projects/electronics-store-customer/README.md) `⭐4.4` `3hr`
-  - Stages
-    - [x] [1 - Fast PCs](./hyperskill/projects/electronics-store-customer/s01.sql)
-    - [x] [2 - Average printer price](./hyperskill/projects/electronics-store-customer/s02.sql)
-    - [x] [3 - Total cost of laptops](./hyperskill/projects/electronics-store-customer/s03.sql)
-    - [x] [4 - PCs and laptops](./hyperskill/projects/electronics-store-customer/s04.sql)
-    - [x] [5 - High-end laptop vs. PC Prices](./hyperskill/projects/electronics-store-customer/s05.sql)
-    - [x] [6 - Ranking PCs by RAM](./hyperskill/projects/electronics-store-customer/s06.sql)
-- [ ] [Databases for Sales](./README.md) `⭐4.2` `7hr`
-- [ ] [Hacker Attack](./hyperskill/projects/hacker-attack/README.md) `⭐4.5` `7hr`
-  - Stages
-    - [x] [1 - School members](./hyperskill/projects/hacker-attack/s01.sql)
-    - [x] [2 - Who are you?](./hyperskill/projects/hacker-attack/s02.sql)
-    - [x] [3 - You are a student](./hyperskill/projects/hacker-attack/s03.sql)
-    - [x] [4 - Plenty of files](./hyperskill/projects/hacker-attack/s04.sql)
-    - [x] [5 - I know your score](./hyperskill/projects/hacker-attack/s05.sql)
-    - [ ] [6 - Grade codes](./hyperskill/projects/hacker-attack/s06.sql)
-    - [ ] [7 - Land ho!](./hyperskill/projects/hacker-attack/s07.sql)
-- [ ] [Library Management System](./README.md) `⭐4.0` `6hr`
-- [ ] [School of Wizards and Magic Wars](./README.md) `⭐4.3` `9hr`
-- [_] [Computer Store Database](./hyperskill/projects/computer-store-db/README.md) `⭐4.2` `7hr`
-  - Stages
-    - [x] [1 - Expensive printers](./hyperskill/projects/computer-store-db/s01.sql)
-    - [x] [2 - Marketable laptops](./hyperskill/projects/computer-store-db/s02.sql)
-    - [x] [3 - Uniques](./hyperskill/projects/computer-store-db/s03.sql)
-    - [x] [3 - Trust no one](./hyperskill/projects/computer-store-db/s04.sql)
 
 ### 4: SQL Puzzles and Answers (book)
 - Joe Celko's book
