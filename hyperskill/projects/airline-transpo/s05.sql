@@ -40,4 +40,6 @@ Query result:
 | United Airlines    | Chicago        | Dallas       | 255.0000            |
 +--------------------+----------------+--------------+---------------------+
 Affected rows: 10
+
+query up to line 24
 */

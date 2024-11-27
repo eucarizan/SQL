@@ -22,4 +22,6 @@ Query result:
 | John Smith     | 2           | Southwest Airlines |
 | Barbara Taylor | 2           | JetBlue Airways    |
 +----------------+-------------+--------------------+
+
+query up to line 10
 */

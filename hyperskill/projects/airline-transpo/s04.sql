@@ -25,4 +25,6 @@ SELECT
   COUNT(aircraft_type) AS num_flights
 FROM plane_duration
 GROUP BY aircraft_type;
+
+query up to line 10
 */

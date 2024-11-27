@@ -46,4 +46,6 @@ FROM (
     GROUP BY route
 ) AS subquery
 ORDER BY total_income DESC;
+
+query up to line 9
 */

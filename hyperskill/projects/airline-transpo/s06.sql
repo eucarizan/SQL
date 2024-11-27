@@ -3,7 +3,7 @@ WITH passenger_income AS (
   SELECT
     p.ID_psg,
     p.passenger_name,
-    ROUND(SUM(TIMESTAMPDIFF(MINUTE, t.time_out, t.time_in) * 0.6), 0) AS pasenger_income_dollars
+    ROUND(SUM(TIMESTAMPDIFF(MINUTE, t.time_out, t.time_in) * 0.6), 0) AS passenger_income_dollars,
     SUM(TIMESTAMPDIFF(MINUTE, t.time_out, t.time_in) * 0.6) / SUM(SUM(TIMESTAMPDIFF(MINUTE, t.time_out, t.time_in) * 0.6)) OVER() * 100 AS percent
   FROM Passenger p 
     JOIN Pass_in_trip pit ON p.ID_psg = pit.ID_psg
@@ -48,5 +48,5 @@ Query result:
 +--------+----------------+--------------------------+--------------------------+----------+
 Affected rows: 10
 
-query upto line 20
+query upto line 31
 */
