@@ -4,6 +4,8 @@
   - [learning](#learning)
   - [about](#about)
   - [stages](#stages)
+    - [1: never painted squares](#1-never-painted-squares)
+    - [2: paint usage by color](#2-paint-usage-by-color)
 
 ## learning
 start by learning basic sql actions like select, from, group by, and where. move on to understanding sum functions, logical and comparison operators, and then explore more advanced ideas like subqueries and join statements. this learning path is designed to equip you with the skills needed to efficiently fetch important information in sql.
@@ -86,6 +88,52 @@ _from the output above, it can be seen that the order of the columns is `id` -> 
 query template:
 ```sql
 select id, name ...;
+```
+
+</details>
+
+### 2: paint usage by color
+<details>
+<summary>find the total amount of paint used for each color.</summary>
+
+#### 2.1 description
+after checking out the squares without paint, you're now curious about the colors used. your next step is to find out how much paint was used for each color, exploring the variety of colors that have touched your canvas.
+
+#### 2.2 objectives
+- identify the `color` from the `spray` table and sum of `total_paint_used` from the `painting` table in the colorino database. to achieve this, use a query that selects the color from the spray table and calculates the sum of paint volume from the painting table for each color. the column order is essential. ensure that results are ordered by the `total_paint_used`. use the `group by` and `join` functions to solve the question.
+
+#### 2.3 examples
+spray table example:
+id|name|color
+:-:|:-:|:-:
+1|baloon1|r
+2|baloon2|b
+3|baloon3|g
+4|baloon4|r
+
+painting table example:
+datetime|square_id|spray_id|volume
+:-:|:-:|:-:|:-:
+2020-01-01 01:13:36|1|1|255
+2020-01-01 02:13:36|1|2|205
+2020-01-01 03:13:36|1|3|100
+2020-01-01 04:13:36|1|3|100
+2020-01-01 05:13:36|2|4|50
+
+from the data presented in the table above, it is evident that spray cans with ids `1` and `4` are both red, and from the painting it is clear that in sum both of them painted squares with a total amount of volume equal to `305`. similarly, the total amount for other colors is calculated. the output table, after identifying the amount of spray used for each color, with the ordering of `total_paint_used` in ascending order:
+mysql query output 
+
+color|total_paint_used
+:-:|:-:
+r|305
+b|205
+g|200
+
+from the output above, it can be seen that the order of the columns is color-> total_paint_used
+query template:
+
+```sql
+select s.color, sum(p.volume) as total_paint_used ...
 ```
 
 </details>
