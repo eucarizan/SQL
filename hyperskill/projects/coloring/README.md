@@ -6,6 +6,7 @@
   - [stages](#stages)
     - [1: never painted squares](#1-never-painted-squares)
     - [2: paint usage by color](#2-paint-usage-by-color)
+    - [3: remaining spray volume](#3-remaining-spray-volume)
 
 ## learning
 start by learning basic sql actions like select, from, group by, and where. move on to understanding sum functions, logical and comparison operators, and then explore more advanced ideas like subqueries and join statements. this learning path is designed to equip you with the skills needed to efficiently fetch important information in sql.
@@ -134,6 +135,64 @@ query template:
 
 ```sql
 select s.color, sum(p.volume) as total_paint_used ...
+```
+
+</details>
+
+### 3: remaining spray volume
+<details>
+<summary>find the remaining spray can volumes after all paintings.</summary>
+
+#### 3.1 description
+after exploring the colors used on your canvas, take a peek into the spray cans. the next step is to discover how much paint is left in each can after all the paintings. uncover the final touches to your vibrant journey by understanding the remaining volumes in each spray can.
+
+#### 3.2 objectives
+- identify the `id` of spray cans from the `spray` table and their remaining volumes after all `paintings` from the painting table in the coloring database. use a query that selects the spray id from the spray table and calculates the remaining volume by subtracting the sum of paint volume from the painting table. ensure results are sorted by spray ids. the column order is essential. utilize the `group by` and `join` functions to accomplish the task. use the `coalesce` function to deal with the `null` values or in other words with the spray cans that were not been used for painting.
+
+additional information and rules to consider:
+- the volume of the spray can is `initially set to 255`, and it decreases as the can is used for painting.
+- the color of the square is determined by the rgb rule, with (r=0, g=0, b=0) representing `black` and (r=255, g=255, b=255) representing `white`.
+- the entry in the painting table `reduces` the amount of paint in the spray can by the specified volume column and `increases` the amount of paint in the square by the same amount.
+- the volume value should be in the range of `0 < volume <= 255`.
+- the amount of paint in a square of the `same color cannot exceed 255`, and the amount of paint in a `spray can not be less than zero`.
+
+#### 3.3 examples
+_spray table example_:
+id|name|color
+:-:|:-:|:-:
+1|baloon1|r
+2|baloon2|b
+3|baloon3|g
+4|baloon4|r
+5|baloon5|g
+
+_painting table example_:
+datetime|square_id|spray_id|volume
+:-:|:-:|:-:|:-:
+2020-01-01 01:13:36|1|1|255
+2020-01-01 02:13:36|1|2|200
+2020-01-01 03:13:36|1|3|105
+2020-01-01 04:13:36|1|3|100
+2020-01-01 05:13:36|2|4|50
+
+_from the data presented in the table above, it is evident that spray cans with id `1` have expended a volume of `255`, as observed in the painting table. the remaining volume for a spray with id 1 will be equal to 255 - 255, resulting in `0`. on the other side, a spray can with id `5` exists in the spray table but is absent in the painting table, indicating that this spray can has not been used and has a remaining volume of `255`. similarly, the remaining volume for other spray cans is calculated. the output table, after identifying the remaining volume in each spray can after all paintings, with the sorting by spray ids:_
+
+mysql query output
+
+id|remaining_volume
+:-:|:-:
+1|0
+2|55
+3|50
+4|205
+5|255
+
+from the output above, it can be seen that the order of the columns is id -> remaining_volume
+
+query template:
+
+```sql
+select s.id, 255 - ... as remaining_volume ...;
 ```
 
 </details>
