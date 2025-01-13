@@ -7,6 +7,7 @@
     - [1: never painted squares](#1-never-painted-squares)
     - [2: paint usage by color](#2-paint-usage-by-color)
     - [3: remaining spray volume](#3-remaining-spray-volume)
+    - [4: white squares and spray usage](#4-white-squares-and-spray-usage)
 
 ## learning
 start by learning basic sql actions like select, from, group by, and where. move on to understanding sum functions, logical and comparison operators, and then explore more advanced ideas like subqueries and join statements. this learning path is designed to equip you with the skills needed to efficiently fetch important information in sql.
@@ -76,9 +77,9 @@ datetime|square_id|spray_id|volume
 2020-01-01 04:13:36|3|3|155
 2020-01-01 05:13:36|5|4|10
 
-_from the data presented in the table above, it is evident that squares with ids `2` and `4` are those that do not participate in the painting process because they are absent in the painting table. the output table, after identifying squares that have never been painted, with the ordering of square names in descending order:
-mysql query output_
+_from the data presented in the table above, it is evident that squares with ids `2` and `4` are those that do not participate in the painting process because they are absent in the painting table. the output table, after identifying squares that have never been painted, with the ordering of square names in descending order:_
 
+mysql query output
 id|name
 :-:|:-:
 4|square4
@@ -104,7 +105,7 @@ after checking out the squares without paint, you're now curious about the color
 - identify the `color` from the `spray` table and sum of `total_paint_used` from the `painting` table in the colorino database. to achieve this, use a query that selects the color from the spray table and calculates the sum of paint volume from the painting table for each color. the column order is essential. ensure that results are ordered by the `total_paint_used`. use the `group by` and `join` functions to solve the question.
 
 #### 2.3 examples
-spray table example:
+_spray table example_:
 id|name|color
 :-:|:-:|:-:
 1|baloon1|r
@@ -112,7 +113,7 @@ id|name|color
 3|baloon3|g
 4|baloon4|r
 
-painting table example:
+_painting table example_:
 datetime|square_id|spray_id|volume
 :-:|:-:|:-:|:-:
 2020-01-01 01:13:36|1|1|255
@@ -121,18 +122,18 @@ datetime|square_id|spray_id|volume
 2020-01-01 04:13:36|1|3|100
 2020-01-01 05:13:36|2|4|50
 
-from the data presented in the table above, it is evident that spray cans with ids `1` and `4` are both red, and from the painting it is clear that in sum both of them painted squares with a total amount of volume equal to `305`. similarly, the total amount for other colors is calculated. the output table, after identifying the amount of spray used for each color, with the ordering of `total_paint_used` in ascending order:
-mysql query output 
+_from the data presented in the table above, it is evident that spray cans with ids `1` and `4` are both red, and from the painting it is clear that in sum both of them painted squares with a total amount of volume equal to `305`. similarly, the total amount for other colors is calculated. the output table, after identifying the amount of spray used for each color, with the ordering of `total_paint_used` in ascending order:_
 
+mysql query output 
 color|total_paint_used
 :-:|:-:
 r|305
 b|205
 g|200
 
-from the output above, it can be seen that the order of the columns is color-> total_paint_used
-query template:
+_from the output above, it can be seen that the order of the columns is `color` -> `total_paint_used`_
 
+query template:
 ```sql
 select s.color, sum(p.volume) as total_paint_used ...
 ```
@@ -148,13 +149,6 @@ after exploring the colors used on your canvas, take a peek into the spray cans.
 
 #### 3.2 objectives
 - identify the `id` of spray cans from the `spray` table and their remaining volumes after all `paintings` from the painting table in the coloring database. use a query that selects the spray id from the spray table and calculates the remaining volume by subtracting the sum of paint volume from the painting table. ensure results are sorted by spray ids. the column order is essential. utilize the `group by` and `join` functions to accomplish the task. use the `coalesce` function to deal with the `null` values or in other words with the spray cans that were not been used for painting.
-
-additional information and rules to consider:
-- the volume of the spray can is `initially set to 255`, and it decreases as the can is used for painting.
-- the color of the square is determined by the rgb rule, with (r=0, g=0, b=0) representing `black` and (r=255, g=255, b=255) representing `white`.
-- the entry in the painting table `reduces` the amount of paint in the spray can by the specified volume column and `increases` the amount of paint in the square by the same amount.
-- the volume value should be in the range of `0 < volume <= 255`.
-- the amount of paint in a square of the `same color cannot exceed 255`, and the amount of paint in a `spray can not be less than zero`.
 
 #### 3.3 examples
 _spray table example_:
@@ -178,7 +172,6 @@ datetime|square_id|spray_id|volume
 _from the data presented in the table above, it is evident that spray cans with id `1` have expended a volume of `255`, as observed in the painting table. the remaining volume for a spray with id 1 will be equal to 255 - 255, resulting in `0`. on the other side, a spray can with id `5` exists in the spray table but is absent in the painting table, indicating that this spray can has not been used and has a remaining volume of `255`. similarly, the remaining volume for other spray cans is calculated. the output table, after identifying the remaining volume in each spray can after all paintings, with the sorting by spray ids:_
 
 mysql query output
-
 id|remaining_volume
 :-:|:-:
 1|0
@@ -187,12 +180,54 @@ id|remaining_volume
 4|205
 5|255
 
-from the output above, it can be seen that the order of the columns is id -> remaining_volume
+_from the output above, it can be seen that the order of the columns is `id` -> `remaining_volume`_
 
 query template:
 
 ```sql
 select s.id, 255 - ... as remaining_volume ...;
+```
+
+</details>
+
+### 4: white squares and spray usage
+<details>
+<summary>find squares painted in white and the number of sprays used to paint them</summary>
+
+#### 4.1 description
+now, let's check the squares painted in white. find out how many spray cans were used for each of the squares painted in white. explore the simplicity of white and the different spray can usage for each painted square.
+
+#### 4.2 objectives
+- identify the `square_id` of those painted in white and determine the `num_sprays` cans used to paint them from the `painting` table in the coloring database. use a query that selects the square id from the painting table, calculates the `count` of distinct spray ids, and filters the results for squares painted in white where the `sum` of paint volume is 765 and at least 3 different spray cans with different colors were used. ensure results are sorted by square ids. the column order is essential. use the `group by` and `having` functions to achieve the task.
+
+#### 4.3 examples
+_painting table example_:
+datetime|square_id|spray_id|volume
+:-:|:-:|:-:|:-:
+2020-01-01 01:13:36|1|1|255
+2020-01-01 02:13:36|1|2|255
+2020-01-01 03:13:36|1|3|105
+2020-01-01 04:13:36|1|4|150
+2020-01-01 05:13:36|3|5|255
+2020-01-01 06:13:36|3|6|100
+2020-01-01 07:13:36|3|7|155
+2020-01-01 08:13:36|3|8|145
+2020-01-01 09:13:36|3|9|110
+2020-01-01 10:13:36|4|9|155
+
+_from the data in the table, we can see that squares with ids `1` and `3` are painted white. they were painted by `4` and `5` different spray cans, totaling `765` in volume. since the paint in a square of the `same color can't exceed 255`, we can be certain they were painted by different colored spray cans, even without knowing the specific colors. the output of the table after displaying white squares identified along with the respective count of spray cans used for painting, sorted by square ids_:
+
+mysql query output 
+square_id|num_sprays
+:-:|:-:
+1|4
+3|5
+
+_from the output above, it can be seen that the order of the columns is `square_id` -> `num_sprays`_
+
+query template:
+```sql
+select square_id, count(distinct spray_id) as num_sprays ...;
 ```
 
 </details>
